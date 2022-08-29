@@ -1,0 +1,11 @@
+L 12/20/2021 - 19:27:10: SourceMod log file session started (file "d:\tf2 server\servers\sf2 modified\server\tf\addons\sourcemod\logs\L20211220.log") (Version "1.10.0.6528")
+L 12/20/2021 - 19:27:10: [TF2ITEMS] "GiveNamedItem" offset = 481
+L 12/20/2021 - 19:27:25: [navmesh.smx] Found .NAV file in maps\slender_backrooms_r1a.nav
+L 12/20/2021 - 19:27:25: [navmesh.smx] Is mesh analyzed: 0
+L 12/20/2021 - 19:27:25: [navmesh.smx] Nav version: 16; SubVersion: 2 (v10+); BSPSize: 21627691; MagicNumber: -17958194
+L 12/20/2021 - 19:27:25: [navmesh.smx] Place count: 0
+L 12/20/2021 - 19:27:25: [navmesh.smx] Has unnamed areas: true
+L 12/20/2021 - 19:27:25: [navmesh.smx] Area count: 1023
+L 12/20/2021 - 19:27:25: [navmesh.smx] Parsed 1023 areas in 0.005121 seconds.
+L 12/20/2021 - 19:27:25: [navmesh.smx] Ladder count: 0
+L 12/20/2021 - 19:27:30: [sf2.smx] Loaded special rounds file!

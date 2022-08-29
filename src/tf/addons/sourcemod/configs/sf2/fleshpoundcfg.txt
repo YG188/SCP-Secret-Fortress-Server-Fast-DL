@@ -1,0 +1,192 @@
+// Fleshpound from Killing Floor, model ported by Vincentor, profile created by Glubbable
+// Copy and paste the following below into the profiles.cfg under addons/sourcemod/configs/sf2
+// This requires SF2 1.8 or later.
+
+	"fleshpound"
+	{
+		"name"	"Flesh Pound"
+		"type"	"2"
+		"speed"	"330.0"
+		"acceleration"	"4000.0"
+		"speed_max"	"440.0"
+		"walkspeed"	"150.0"
+		"walkspeed_max"	"200.0"
+		"model"	"models/vince_sf/fleshpound/fleshpound.mdl"
+		"model_scale"	"1.20"
+		"eye_pos"	"0 0 70"
+		"mins"	"-16 -16 0"
+		"maxs"	"16 16 64"
+		"fov"	"330"
+		"turnrate" "1000"
+		
+		"copy" "1"
+		"copy_max"	"2"
+
+		"enable_random_selection" "0"
+		
+		"teleport_time_min"	"4.0"
+		"teleport_time_max"	"6.0"
+		"teleport_range_min"	"400.0"
+		"teleport_range_max"	"1400.0"
+		"teleport_target_rest_period"	"6.0"
+		"teleport_target_persistency_period"	"8.0"
+		"teleport_target_stress_min"	"0.99"
+		"teleport_target_stress_max"	"1.0"
+		"teleport_type"	"2"
+		
+		"static_on_look"	"0"
+		"static_on_radius"	"1"
+		"static_rate"	"0.6"
+		"static_rate_decay"	"0.3"
+		"static_radius"	"150.0"
+		"scare_radius"	"420.0"
+		"scare_cooldown"	"5.0"
+
+		"attack_props"	"0"
+		"attack_damageforce"	"12"
+		"attack_damage_vs_props"	"30"
+		
+		"anger_start"	"1.0"
+		"anger_page_time_diff"	"99999.0"
+		"anger_page_add"	"0.00"
+		
+		"appear_chance_threshold"	"0.20"
+		"appear_chance_min"	"0.0"
+		"appear_chance_max"	"1.0"
+		
+		"search_range"	"1500.0"
+		"search_alert_gracetime"	"3.0"
+		"search_chase_duration"	"30.0"
+		"search_chase_persistency_time_init"	"2.0"
+		"search_chase_persistency_time_add_newtarget"	"2.0"
+		"search_chase_persistency_time_add_visible_min"	"2.0"
+		"search_chase_persistency_time_add_visible_max"	"10.0"
+		"search_chase_persistency_time_add_attack"	"0.0"
+		
+		"wake_radius"	"300.0"
+		
+		"wander_move"	"1"
+
+		"jump_speed"	"500.0"
+		"airspeed"	"375.0"
+		
+		"idle_lifetime"	"6.0"
+		
+		"attack_delay"	"0.30"
+		"attack_range"	"175.0"
+		"attack_begin_range"	"55"
+		"attack_damage"	"200.0"
+		"attack_damagetype"	"64"
+		"attack_punchvel"	"30 30 1"
+		"attack_endafter" "0.4"
+		
+		"stun_enabled"	"1"
+		"stun_health"	"90"
+		"stun_duration"	"3.0"
+		
+		"animation_idle"	"idle"
+		"animation_walk"	"walk"
+		"animation_walk_playbackrate"	"1.0"
+		"animation_run"		"run"
+		"animation_run_playbackrate"	"1.0"
+		"animation_attack"	"attack"
+		"animation_attack_playbackrate"	"1.0"
+		"animation_stun"	"flinch"
+		"animation_stun_playbackrate"	"1.0"
+		
+		"sound_idle_cooldown_min"	"3.0"
+		"sound_idle_cooldown_max"	"4.0"
+		"sound_idle_volume"	"1.0"
+		
+		"sound_alertofenemy_cooldown_min"	"3.0"
+		"sound_alertofenemy_cooldown_max"	"4.0"
+		"sound_alertofenemy_volume"	"1.0"
+		
+		"sound_chasingenemy_cooldown_min"	"3.0"
+		"sound_chasingenemy_cooldown_max"	"4.0"
+		"sound_chasingenemy_volume"	"1.0"
+		
+		"mod_precache"
+		{
+			"1"	"models/vince_sf/fleshpound/fleshpound.mdl"
+		}
+		
+		"mod_download"
+		{
+			"1"	"models/vince_sf/fleshpound/fleshpound"
+		}
+		
+		"mat_download"
+		{
+			"1"	"materials/models/vince_sf/fleshpound/fleshpound_diff"
+			"2"	"materials/models/vince_sf/fleshpound/fpdevicebloomamber"
+		}
+		
+		"download"
+		{
+			"1"	"materials/models/vince_sf/fleshpound/fleshpound_norm.vtf"
+		}
+		
+		"sound_scare_player"
+		{
+		}
+
+		"sound_alert_music"
+		{
+		}
+		
+		"sound_chase_music"
+		{
+			"1"	"slender/fleshpound/fleshpound_chaseloop.wav"
+		}
+		
+		"sound_spawn_all"
+		{
+			"1"	"slender/fleshpound/fleshpound_intro.mp3"
+		}
+		
+		"sound_idle"
+		{
+			"1"	"slender/fleshpound/fleshpound_idle01.mp3"
+			"2"	"slender/fleshpound/fleshpound_idle02.mp3"
+			"3"	"slender/fleshpound/fleshpound_idle03.mp3"
+			"4"	"slender/fleshpound/fleshpound_idle04.mp3"
+		}
+		
+		"sound_alertofenemy"
+		{
+			"1"	"slender/fleshpound/fleshpound_alert01.mp3"
+			"2"	"slender/fleshpound/fleshpound_alert02.mp3"
+			"3"	"slender/fleshpound/fleshpound_alert03.mp3"
+			"4"	"slender/fleshpound/fleshpound_alert04.mp3"
+			"5"	"slender/fleshpound/fleshpound_alert05.mp3"
+		}
+		
+		"sound_chasingenemy"
+		{
+			"1"	"slender/fleshpound/fleshpound_chase01.mp3"
+			"2"	"slender/fleshpound/fleshpound_chase02.mp3"
+			"3"	"slender/fleshpound/fleshpound_chase03.mp3"
+		}
+
+		"sound_attackenemy"
+		{
+			"1"	"slender/fleshpound/fleshpound_hit01.mp3"
+			"2"	"slender/fleshpound/fleshpound_hit02.mp3"
+		}
+
+		"sound_hitenemy"
+		{
+		}
+		
+		"sound_stun"
+		{			
+			"1"	"slender/fleshpound/fleshpound_stun01.mp3"
+			"2"	"slender/fleshpound/fleshpound_stun02.mp3"
+			"3"	"slender/fleshpound/fleshpound_stun03.mp3"
+		}
+		
+		"sound_missenemy"
+		{
+		}
+	}

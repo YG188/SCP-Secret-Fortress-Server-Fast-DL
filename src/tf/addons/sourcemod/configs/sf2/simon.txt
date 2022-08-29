@@ -1,0 +1,183 @@
+	"simon"
+	{
+		"name"	"Book Simon"
+		"type"	"2"
+		"speed"	"240.0"
+		"acceleration"	"2000.0"
+		"speed_max"	"310.0"
+		"walkspeed"	"100.0"
+		"walkspeed_max"	"120.0"
+		"model"	"models/cof/simon.mdl"
+		"model_scale"	"1.1"
+		"eye_pos"	"0 0 72"
+		"mins"	"-16 -16 0"
+		"maxs"	"16 16 64"
+		"turnrate"	"9000.0"
+		"fov"	"400"
+		
+		"copy" "1"
+		"copy_max"	"1"
+		
+		"teleport_time_min"	"3.0"
+		"teleport_time_max"	"6.0"
+		"teleport_range_min"	"300.0"
+		"teleport_range_max"	"2000.0"
+		"teleport_target_rest_period"	"4.0"
+		"teleport_target_persistency_period"	"10.0"
+		"teleport_target_stress_min"	"0.8"
+		"teleport_target_stress_max"	"1.0"
+		"teleport_type"	"2"
+
+		"attack_props"	"0"
+		"attack_damageforce"	"12"
+		"attack_damage_vs_props"	"30"
+		
+		"static_on_look"	"0"
+		"static_on_radius"	"0"
+		"static_rate"	"0.75"
+		"static_rate_decay"	"0.9"
+		"scare_radius"	"512.0"
+		"scare_cooldown"	"1.0"
+		
+		"anger_start"	"1.0"
+		"anger_page_time_diff"	"99999.0"
+		"anger_page_add"	"0.0"
+		
+		"appear_chance_threshold"	"0.30"
+		"appear_chance_min"	"0.0"
+		"appear_chance_max"	"1.0"
+		
+		"think_time_min"	"2.0"
+		"think_time_max"	"4.0"
+		
+		"search_range"	"2000.0"
+		"search_alert_gracetime"	"0.0"
+		"search_chase_duration"	"6.0"
+		
+		"wake_radius"	"400.0"
+		
+		"wander_move"	"1"
+
+		"jump_speed"	"512.0"
+		"airspeed"	"400.0"
+		
+		"idle_lifetime"	"5.0"
+		
+		"attack_delay"	"0.3"
+		"attack_range"	"800.0"
+		"attack_damage"	"40.0"
+		"attack_damagetype"	"130"
+		"attack_punchvel"	"10 10 2"
+		"attack_endafter" "0.3"
+		
+		"stun_enabled"	"0"
+		"stun_health"	"150"
+		"stun_duration"	"4.25"
+		
+		"animation_idle"	"idle_shotgun"
+		"animation_walk"	"walk_shotgun"
+		"animation_walk_playbackrate"	"2.0"
+		"animation_run"		"walk_shotgun"
+		"animation_run_playbackrate"	"3.0"
+		"animation_attack"	"shotgun_idle"
+		"animation_attack_playbackrate"	"2.0"
+		"animation_stun"	"idle_shotgun"
+		"animation_stun_playbackrate"	"0.25"
+		
+		"blink_look_rate_multiply"	"1.5"
+		
+		"mod_precache"
+		{
+			"1"	"models/cof/simon.mdl"
+		}
+		
+		"mod_download"
+		{
+			"1"	"models/cof/simon"
+		}
+		
+		"mat_download"
+		{
+			"1"	"materials/models/cof/simon/map2"
+			"2"	"materials/models/cof/simon/map1"
+			"3"	"materials/models/cof/simon/map3"
+			"4"	"materials/models/cof/simon/glove_256"
+			"5"	"materials/models/cof/simon/hoodie_grey"
+			"6"	"materials/models/cof/simon/jeans"
+			"7"	"materials/models/cof/simon/mouth"
+			"8"	"materials/models/cof/simon/shoe_cut"
+			"9"	"materials/models/cof/simon/head_face"
+		}
+		
+		"download"
+		{
+			"1"	"materials/models/cof/simon/head_normal.vtf"
+			"2"	"materials/models/cof/simon/hoodie_normal.vtf"
+		}
+		
+		"sound_scare_player"
+		{
+		}
+		
+		"sound_chase_music"
+		{
+			"1"	"slender/cof/simontheme.wav"
+		}
+		
+		"sound_chase_music_visible"
+		{
+		}
+		
+		"sound_static"
+		{
+		}
+		
+		"sound_idle"
+		{
+		}
+		
+		"sound_alertofenemy"
+		{
+		}
+		
+		"sound_chase_enemyinitial"
+		{
+		}
+		
+		"sound_chasingenemy"
+		{
+		}
+		
+		"sound_hitenemy"
+		{
+			"1"	"slender/cof/shotgun.mp3"
+		}
+		
+		"sound_stun"
+		{
+		}
+		
+		"sound_missenemy"
+		{
+			"1"	"slender/cof/shotgun.mp3"
+		}
+
+		"effects"
+		{
+			"pretty_light"
+			{
+				"type"	"dynamiclight"
+				"event"	"constant"
+				"origin"	"0 0 60"
+				"origin_custom"	""
+				"angles"	"0 0 0"
+				"angles_custom"	"0 0 0"
+				
+				"rendercolor"	"100 255 255 255"
+				"distance"	"120.0"
+				"brightness"	"7"
+				"cone"	"-1"
+				"spawnflags"	"1"
+			}
+		}
+	}

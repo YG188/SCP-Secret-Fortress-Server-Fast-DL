@@ -1,0 +1,203 @@
+	"brute"
+	{
+		"name"	"Amnesia Brute"
+		"type"	"2"
+		"speed"	"320.0"
+		"acceleration"	"4000.0"
+		"speed_max"	"380.0"
+		"walkspeed"	"125.0"
+		"walkspeed_max"	"225.0"
+		"model"	"models/predatorcz/amnesia/special.mdl"
+		"model_scale"	"1.5"
+		"eye_pos"	"0 0 70"
+		"mins"	"-16 -16 0"
+		"maxs"	"16 16 64"
+		"fov"	"270"
+		"turnrate" "1000"
+		
+		"copy" "1"
+		"copy_max"	"2"
+
+		"enable_random_selection" "0"
+		
+		"teleport_time_min"	"4.0"
+		"teleport_time_max"	"8.0"
+		"teleport_range_min"	"500.0"
+		"teleport_range_max"	"1500.0"
+		"teleport_target_rest_period"	"6.0"
+		"teleport_target_persistency_period"	"8.0"
+		"teleport_target_stress_min"	"0.99"
+		"teleport_target_stress_max"	"1.0"
+		"teleport_type"	"2"
+		
+		"static_on_look"	"0"
+		"static_on_radius"	"1"
+		"static_rate"	"0.6"
+		"static_rate_decay"	"0.3"
+		"static_radius"	"150.0"
+		"scare_radius"	"420.0"
+		"scare_cooldown"	"5.0"
+
+		"attack_props"	"0"
+		"attack_damageforce"	"12"
+		"attack_damage_vs_props"	"30"
+		
+		"anger_start"	"1.0"
+		"anger_page_time_diff"	"99999.0"
+		"anger_page_add"	"0.00"
+		
+		"appear_chance_threshold"	"0.20"
+		"appear_chance_min"	"0.0"
+		"appear_chance_max"	"1.0"
+		
+		"search_range"	"1000.0"
+		"search_alert_gracetime"	"1.25"
+		"search_chase_duration"	"20.0"
+		"search_chase_persistency_time_init"	"1.0"
+		"search_chase_persistency_time_add_newtarget"	"5.0"
+		"search_chase_persistency_time_add_visible_min"	"5.0"
+		"search_chase_persistency_time_add_visible_max"	"15.0"
+		"search_chase_persistency_time_add_attack"	"2.5"
+		
+		"wake_radius"	"500.0"
+		
+		"wander_move"	"1"
+
+		"jump_speed"	"300.0"
+		"jump_cooldown"	"4.0"
+		"airspeed"	"360.0"
+		
+		"idle_lifetime"	"6.0"
+		
+		"attack_delay"	"0.20"
+		"attack_range"	"220.0"
+		"attack_begin_range"	"100"
+		"attack_damage"	"50.0"
+		"attack_damagetype"	"1114112"
+		"attack_punchvel"	"30 30 1"
+		"attack_endafter" "0.3"
+		"attack_spread"	"90"
+		
+		"stun_enabled"	"0"
+		"stun_health"	"44"
+		"stun_duration"	"1.1"
+		
+		"animation_idle"	"Idle1"
+		"animation_walk"	"walk"
+		"animation_walk_playbackrate"	"1.0"
+		"animation_run"		"run_all"
+		"animation_run_playbackrate"	"1.0"
+		"animation_attack"	"attack1"
+		"animation_attack_playbackrate"	"2.0"
+		"animation_stun"	"flinch"
+		"animation_stun_playbackrate"	"1.0"
+		
+		"sound_idle_cooldown_min"	"5.0"
+		"sound_idle_cooldown_max"	"6.0"
+		"sound_idle_volume"	"1.0"
+		
+		"sound_alertofenemy_cooldown_min"	"3.0"
+		"sound_alertofenemy_cooldown_max"	"4.0"
+		"sound_alertofenemy_volume"	"1.0"
+		
+		"sound_chasingenemy_cooldown_min"	"1.0"
+		"sound_chasingenemy_cooldown_max"	"2.0"
+		"sound_chasingenemy_volume"	"1.0"
+		
+		"mod_precache"
+		{
+			"1"	"models/predatorcz/amnesia/special.mdl"
+		}
+		
+		"mod_download"
+		{
+			"1"	"models/predatorcz/amnesia/special"
+		}
+		
+		"mat_download"
+		{
+		}
+		
+		"download"
+		{
+			"1"	"materials/models/predatorcz/amnesia/brute.vtf"
+			"2"	"materials/models/predatorcz/amnesia/brute_n.vtf"
+			"3"	"materials/models/predatorcz/amnesia/servantbrute.vmt"
+		}
+		
+		"sound_scare_player"
+		{
+		}
+
+		"sound_alert_music"
+		{
+			"1"	"slender/brute/brute_search.wav"
+		}
+		
+		"sound_chase_music"
+		{
+			"1"	"slender/brute/brute_chase.wav"
+		}
+
+		"sound_chase_visible"
+		{
+			"1"	"slender/brute/brute_sanity.wav"
+		}
+		
+		"sound_spawn_all"
+		{
+			"1"	"slender/brute/brute_intro.mp3"
+		}
+		
+		"sound_idle"
+		{
+			"1"	"slender/brute/brute_idle_01.mp3"
+			"2"	"slender/brute/brute_idle_02.mp3"
+			"3"	"slender/brute/brute_idle_03.mp3"
+			"4"	"slender/brute/brute_idle_04.mp3"
+			"5"	"slender/brute/brute_idle_05.mp3"
+			"6"	"slender/brute/brute_idle_06.mp3"
+			"7"	"slender/brute/brute_idle_07.mp3"
+		}
+		
+		"sound_alertofenemy"
+		{
+			"1"	"slender/brute/brute_alert_01.mp3"
+			"2"	"slender/brute/brute_alert_02.mp3"
+			"3"	"slender/brute/brute_alert_03.mp3"
+			"4"	"slender/brute/brute_alert_04.mp3"
+			"5"	"slender/brute/brute_alert_05.mp3"
+		}
+		
+		"sound_chasingenemy"
+		{
+			"1"	"slender/brute/brute_sight_01.mp3"
+			"2"	"slender/brute/brute_sight_02.mp3"
+			"3"	"slender/brute/brute_sight_03.mp3"
+		}
+
+		"sound_attackenemy"
+		{
+			"1"	"slender/brute/brute_hit_01.mp3"
+			"2"	"slender/brute/brute_hit_02.mp3"
+		}
+
+		"effects"
+		{
+			"pretty_light"
+			{
+				"type"	"dynamiclight"
+				"event"	"constant"
+				"origin"	"0 0 110"
+				"origin_custom"	""
+				"angles"	"0 0 0"
+				"angles_custom"	"0 0 0"
+				
+				"rendercolor"	"255 150 45 80"
+				"distance"	"120.0"
+				"brightness"	"7"
+				"cone"	"-1"
+				"spawnflags"	"1"
+			}
+		}
+	}

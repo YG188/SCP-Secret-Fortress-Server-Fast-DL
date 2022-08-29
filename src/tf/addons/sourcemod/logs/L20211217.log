@@ -1,0 +1,226 @@
+L 12/17/2021 - 18:46:31: SourceMod log file session started (file "d:\tf2 server\servers\sf2 modified\server\tf\addons\sourcemod\logs\L20211217.log") (Version "1.10.0.6528")
+L 12/17/2021 - 18:46:31: [TF2ITEMS] "GiveNamedItem" offset = 472
+L 12/17/2021 - 18:46:42: [navmesh.smx] Found .NAV file in maps\slender_arizona_b1.nav
+L 12/17/2021 - 18:46:42: [navmesh.smx] Is mesh analyzed: 0
+L 12/17/2021 - 18:46:42: [navmesh.smx] Nav version: 16; SubVersion: 2 (v10+); BSPSize: 31415616; MagicNumber: -17958194
+L 12/17/2021 - 18:46:42: [navmesh.smx] Place count: 0
+L 12/17/2021 - 18:46:42: [navmesh.smx] Has unnamed areas: true
+L 12/17/2021 - 18:46:42: [navmesh.smx] Area count: 4303
+L 12/17/2021 - 18:46:42: [navmesh.smx] Parsed 4303 areas in 0.021847 seconds.
+L 12/17/2021 - 18:46:43: [navmesh.smx] Ladder count: 0
+L 12/17/2021 - 18:46:43: [UPDATER] Successfully updated gamedata file "tf2.items.txt"
+L 12/17/2021 - 18:46:43: [UPDATER] SourceMod has been updated, please reload it or restart your server.
+L 12/17/2021 - 18:55:40: SourceMod log file session started (file "d:\tf2 server\servers\sf2 modified\server\tf\addons\sourcemod\logs\L20211217.log") (Version "1.10.0.6528")
+L 12/17/2021 - 18:55:40: [TF2ITEMS] "GiveNamedItem" offset = 481
+L 12/17/2021 - 18:55:46: [navmesh.smx] Found .NAV file in maps\slender_arizona_b1.nav
+L 12/17/2021 - 18:55:46: [navmesh.smx] Is mesh analyzed: 0
+L 12/17/2021 - 18:55:46: [navmesh.smx] Nav version: 16; SubVersion: 2 (v10+); BSPSize: 31415616; MagicNumber: -17958194
+L 12/17/2021 - 18:55:46: [navmesh.smx] Place count: 0
+L 12/17/2021 - 18:55:46: [navmesh.smx] Has unnamed areas: true
+L 12/17/2021 - 18:55:46: [navmesh.smx] Area count: 4303
+L 12/17/2021 - 18:55:46: [navmesh.smx] Parsed 4303 areas in 0.020803 seconds.
+L 12/17/2021 - 18:55:47: [navmesh.smx] Ladder count: 0
+L 12/17/2021 - 19:03:58: SourceMod log file session started (file "d:\tf2 server\servers\sf2 modified\server\tf\addons\sourcemod\logs\L20211217.log") (Version "1.10.0.6528")
+L 12/17/2021 - 19:03:58: [TF2ITEMS] "GiveNamedItem" offset = 481
+L 12/17/2021 - 19:04:03: [navmesh.smx] Found .NAV file in maps\slender_arizona_b1.nav
+L 12/17/2021 - 19:04:03: [navmesh.smx] Is mesh analyzed: 0
+L 12/17/2021 - 19:04:03: [navmesh.smx] Nav version: 16; SubVersion: 2 (v10+); BSPSize: 31415616; MagicNumber: -17958194
+L 12/17/2021 - 19:04:03: [navmesh.smx] Place count: 0
+L 12/17/2021 - 19:04:03: [navmesh.smx] Has unnamed areas: true
+L 12/17/2021 - 19:04:03: [navmesh.smx] Area count: 4303
+L 12/17/2021 - 19:04:03: [navmesh.smx] Parsed 4303 areas in 0.022626 seconds.
+L 12/17/2021 - 19:04:04: [navmesh.smx] Ladder count: 0
+L 12/17/2021 - 19:14:06: SourceMod log file session started (file "d:\tf2 server\servers\sf2 modified\server\tf\addons\sourcemod\logs\L20211217.log") (Version "1.10.0.6528")
+L 12/17/2021 - 19:14:06: [TF2ITEMS] "GiveNamedItem" offset = 481
+L 12/17/2021 - 19:14:11: [navmesh.smx] Found .NAV file in maps\slender_arizona_b1.nav
+L 12/17/2021 - 19:14:11: [navmesh.smx] Is mesh analyzed: 0
+L 12/17/2021 - 19:14:11: [navmesh.smx] Nav version: 16; SubVersion: 2 (v10+); BSPSize: 31415616; MagicNumber: -17958194
+L 12/17/2021 - 19:14:11: [navmesh.smx] Place count: 0
+L 12/17/2021 - 19:14:11: [navmesh.smx] Has unnamed areas: true
+L 12/17/2021 - 19:14:11: [navmesh.smx] Area count: 4303
+L 12/17/2021 - 19:14:11: [navmesh.smx] Parsed 4303 areas in 0.025788 seconds.
+L 12/17/2021 - 19:14:12: [navmesh.smx] Ladder count: 0
+L 12/17/2021 - 19:40:46: SourceMod log file session started (file "d:\tf2 server\servers\sf2 modified\server\tf\addons\sourcemod\logs\L20211217.log") (Version "1.10.0.6528")
+L 12/17/2021 - 19:40:46: [TF2ITEMS] "GiveNamedItem" offset = 481
+L 12/17/2021 - 19:40:51: [navmesh.smx] Found .NAV file in maps\slender_arizona_b1.nav
+L 12/17/2021 - 19:40:52: [navmesh.smx] Is mesh analyzed: 0
+L 12/17/2021 - 19:40:52: [navmesh.smx] Nav version: 16; SubVersion: 2 (v10+); BSPSize: 31415616; MagicNumber: -17958194
+L 12/17/2021 - 19:40:52: [navmesh.smx] Place count: 0
+L 12/17/2021 - 19:40:52: [navmesh.smx] Has unnamed areas: true
+L 12/17/2021 - 19:40:52: [navmesh.smx] Area count: 4303
+L 12/17/2021 - 19:40:52: [navmesh.smx] Parsed 4303 areas in 0.020784 seconds.
+L 12/17/2021 - 19:40:53: [navmesh.smx] Ladder count: 0
+L 12/17/2021 - 19:49:26: SourceMod log file session started (file "d:\tf2 server\servers\sf2 modified\server\tf\addons\sourcemod\logs\L20211217.log") (Version "1.10.0.6528")
+L 12/17/2021 - 19:49:26: [TF2ITEMS] "GiveNamedItem" offset = 481
+L 12/17/2021 - 19:49:31: [navmesh.smx] Found .NAV file in maps\slender_arizona_b1.nav
+L 12/17/2021 - 19:49:31: [navmesh.smx] Is mesh analyzed: 0
+L 12/17/2021 - 19:49:31: [navmesh.smx] Nav version: 16; SubVersion: 2 (v10+); BSPSize: 31415616; MagicNumber: -17958194
+L 12/17/2021 - 19:49:31: [navmesh.smx] Place count: 0
+L 12/17/2021 - 19:49:31: [navmesh.smx] Has unnamed areas: true
+L 12/17/2021 - 19:49:31: [navmesh.smx] Area count: 4303
+L 12/17/2021 - 19:49:31: [navmesh.smx] Parsed 4303 areas in 0.019529 seconds.
+L 12/17/2021 - 19:49:32: [navmesh.smx] Ladder count: 0
+L 12/17/2021 - 20:07:59: SourceMod log file session started (file "d:\tf2 server\servers\sf2 modified\server\tf\addons\sourcemod\logs\L20211217.log") (Version "1.10.0.6528")
+L 12/17/2021 - 20:07:59: [TF2ITEMS] "GiveNamedItem" offset = 481
+L 12/17/2021 - 20:08:04: [navmesh.smx] Found .NAV file in maps\slender_arizona_b1.nav
+L 12/17/2021 - 20:08:04: [navmesh.smx] Is mesh analyzed: 0
+L 12/17/2021 - 20:08:04: [navmesh.smx] Nav version: 16; SubVersion: 2 (v10+); BSPSize: 31415616; MagicNumber: -17958194
+L 12/17/2021 - 20:08:04: [navmesh.smx] Place count: 0
+L 12/17/2021 - 20:08:04: [navmesh.smx] Has unnamed areas: true
+L 12/17/2021 - 20:08:04: [navmesh.smx] Area count: 4303
+L 12/17/2021 - 20:08:04: [navmesh.smx] Parsed 4303 areas in 0.019775 seconds.
+L 12/17/2021 - 20:08:05: [navmesh.smx] Ladder count: 0
+L 12/17/2021 - 20:13:49: SourceMod log file session started (file "d:\tf2 server\servers\sf2 modified\server\tf\addons\sourcemod\logs\L20211217.log") (Version "1.10.0.6528")
+L 12/17/2021 - 20:13:49: [TF2ITEMS] "GiveNamedItem" offset = 481
+L 12/17/2021 - 20:13:55: [navmesh.smx] Found .NAV file in maps\slender_arizona_b1.nav
+L 12/17/2021 - 20:13:55: [navmesh.smx] Is mesh analyzed: 0
+L 12/17/2021 - 20:13:55: [navmesh.smx] Nav version: 16; SubVersion: 2 (v10+); BSPSize: 31415616; MagicNumber: -17958194
+L 12/17/2021 - 20:13:55: [navmesh.smx] Place count: 0
+L 12/17/2021 - 20:13:55: [navmesh.smx] Has unnamed areas: true
+L 12/17/2021 - 20:13:55: [navmesh.smx] Area count: 4303
+L 12/17/2021 - 20:13:55: [navmesh.smx] Parsed 4303 areas in 0.018317 seconds.
+L 12/17/2021 - 20:13:56: [navmesh.smx] Ladder count: 0
+L 12/17/2021 - 20:13:59: [sf2.smx] Loaded special rounds file!
+L 12/17/2021 - 20:16:48: SourceMod log file session started (file "d:\tf2 server\servers\sf2 modified\server\tf\addons\sourcemod\logs\L20211217.log") (Version "1.10.0.6528")
+L 12/17/2021 - 20:16:48: [TF2ITEMS] "GiveNamedItem" offset = 481
+L 12/17/2021 - 20:16:53: [navmesh.smx] Found .NAV file in maps\slender_arizona_b1.nav
+L 12/17/2021 - 20:16:53: [navmesh.smx] Is mesh analyzed: 0
+L 12/17/2021 - 20:16:53: [navmesh.smx] Nav version: 16; SubVersion: 2 (v10+); BSPSize: 31415616; MagicNumber: -17958194
+L 12/17/2021 - 20:16:53: [navmesh.smx] Place count: 0
+L 12/17/2021 - 20:16:53: [navmesh.smx] Has unnamed areas: true
+L 12/17/2021 - 20:16:53: [navmesh.smx] Area count: 4303
+L 12/17/2021 - 20:16:53: [navmesh.smx] Parsed 4303 areas in 0.019879 seconds.
+L 12/17/2021 - 20:16:54: [navmesh.smx] Ladder count: 0
+L 12/17/2021 - 20:16:56: [sf2.smx] Loaded special rounds file!
+L 12/17/2021 - 20:19:07: SourceMod log file session started (file "d:\tf2 server\servers\sf2 modified\server\tf\addons\sourcemod\logs\L20211217.log") (Version "1.10.0.6528")
+L 12/17/2021 - 20:19:07: [TF2ITEMS] "GiveNamedItem" offset = 481
+L 12/17/2021 - 20:19:13: [navmesh.smx] Found .NAV file in maps\slender_arizona_b1.nav
+L 12/17/2021 - 20:19:13: [navmesh.smx] Is mesh analyzed: 0
+L 12/17/2021 - 20:19:13: [navmesh.smx] Nav version: 16; SubVersion: 2 (v10+); BSPSize: 31415616; MagicNumber: -17958194
+L 12/17/2021 - 20:19:13: [navmesh.smx] Place count: 0
+L 12/17/2021 - 20:19:13: [navmesh.smx] Has unnamed areas: true
+L 12/17/2021 - 20:19:13: [navmesh.smx] Area count: 4303
+L 12/17/2021 - 20:19:13: [navmesh.smx] Parsed 4303 areas in 0.018675 seconds.
+L 12/17/2021 - 20:19:14: [navmesh.smx] Ladder count: 0
+L 12/17/2021 - 20:19:15: [sf2.smx] Loaded special rounds file!
+L 12/17/2021 - 22:37:47: SourceMod log file session started (file "d:\tf2 server\servers\sf2 modified\server\tf\addons\sourcemod\logs\L20211217.log") (Version "1.10.0.6528")
+L 12/17/2021 - 22:37:47: [TF2ITEMS] "GiveNamedItem" offset = 481
+L 12/17/2021 - 22:37:54: [navmesh.smx] Found .NAV file in maps\slender_mansion_b3b.nav
+L 12/17/2021 - 22:37:54: [navmesh.smx] Is mesh analyzed: 0
+L 12/17/2021 - 22:37:54: [navmesh.smx] Nav version: 16; SubVersion: 2 (v10+); BSPSize: 51669168; MagicNumber: -17958194
+L 12/17/2021 - 22:37:54: [navmesh.smx] Place count: 0
+L 12/17/2021 - 22:37:54: [navmesh.smx] Has unnamed areas: true
+L 12/17/2021 - 22:37:54: [navmesh.smx] Area count: 1936
+L 12/17/2021 - 22:37:54: [navmesh.smx] Parsed 1936 areas in 0.009651 seconds.
+L 12/17/2021 - 22:37:54: [navmesh.smx] Ladder count: 0
+L 12/17/2021 - 22:37:55: [sf2.smx] Loaded special rounds file!
+L 12/17/2021 - 22:55:37: SourceMod log file session started (file "d:\tf2 server\servers\sf2 modified\server\tf\addons\sourcemod\logs\L20211217.log") (Version "1.10.0.6528")
+L 12/17/2021 - 22:55:37: [TF2ITEMS] "GiveNamedItem" offset = 481
+L 12/17/2021 - 22:55:43: [navmesh.smx] Found .NAV file in maps\slender_fiveroundsatfreddys_b4.nav
+L 12/17/2021 - 22:55:43: [navmesh.smx] Is mesh analyzed: 0
+L 12/17/2021 - 22:55:43: [navmesh.smx] Nav version: 16; SubVersion: 2 (v10+); BSPSize: 95056764; MagicNumber: -17958194
+L 12/17/2021 - 22:55:43: [navmesh.smx] Place count: 0
+L 12/17/2021 - 22:55:43: [navmesh.smx] Has unnamed areas: true
+L 12/17/2021 - 22:55:43: [navmesh.smx] Area count: 2026
+L 12/17/2021 - 22:55:43: [navmesh.smx] Parsed 2026 areas in 0.009303 seconds.
+L 12/17/2021 - 22:55:43: [navmesh.smx] Ladder count: 0
+L 12/17/2021 - 22:55:45: [sf2.smx] Loaded special rounds file!
+L 12/17/2021 - 23:07:03: SourceMod log file session started (file "d:\tf2 server\servers\sf2 modified\server\tf\addons\sourcemod\logs\L20211217.log") (Version "1.10.0.6528")
+L 12/17/2021 - 23:07:03: [TF2ITEMS] "GiveNamedItem" offset = 481
+L 12/17/2021 - 23:07:08: [navmesh.smx] Found .NAV file in maps\slender_fiveroundsatfreddys_b4.nav
+L 12/17/2021 - 23:07:08: [navmesh.smx] Is mesh analyzed: 0
+L 12/17/2021 - 23:07:08: [navmesh.smx] Nav version: 16; SubVersion: 2 (v10+); BSPSize: 95056764; MagicNumber: -17958194
+L 12/17/2021 - 23:07:08: [navmesh.smx] Place count: 0
+L 12/17/2021 - 23:07:08: [navmesh.smx] Has unnamed areas: true
+L 12/17/2021 - 23:07:08: [navmesh.smx] Area count: 2026
+L 12/17/2021 - 23:07:08: [navmesh.smx] Parsed 2026 areas in 0.009105 seconds.
+L 12/17/2021 - 23:07:08: [navmesh.smx] Ladder count: 0
+L 12/17/2021 - 23:07:11: [sf2.smx] Loaded special rounds file!
+L 12/17/2021 - 23:11:28: SourceMod log file session started (file "d:\tf2 server\servers\sf2 modified\server\tf\addons\sourcemod\logs\L20211217.log") (Version "1.10.0.6528")
+L 12/17/2021 - 23:11:28: [TF2ITEMS] "GiveNamedItem" offset = 481
+L 12/17/2021 - 23:11:33: [navmesh.smx] Found .NAV file in maps\slender_fiveroundsatfreddys_b4.nav
+L 12/17/2021 - 23:11:33: [navmesh.smx] Is mesh analyzed: 0
+L 12/17/2021 - 23:11:33: [navmesh.smx] Nav version: 16; SubVersion: 2 (v10+); BSPSize: 95056764; MagicNumber: -17958194
+L 12/17/2021 - 23:11:33: [navmesh.smx] Place count: 0
+L 12/17/2021 - 23:11:33: [navmesh.smx] Has unnamed areas: true
+L 12/17/2021 - 23:11:33: [navmesh.smx] Area count: 2026
+L 12/17/2021 - 23:11:33: [navmesh.smx] Parsed 2026 areas in 0.008943 seconds.
+L 12/17/2021 - 23:11:33: [navmesh.smx] Ladder count: 0
+L 12/17/2021 - 23:11:34: [sf2.smx] Loaded special rounds file!
+L 12/17/2021 - 23:14:11: SourceMod log file session started (file "d:\tf2 server\servers\sf2 modified\server\tf\addons\sourcemod\logs\L20211217.log") (Version "1.10.0.6528")
+L 12/17/2021 - 23:14:11: [TF2ITEMS] "GiveNamedItem" offset = 481
+L 12/17/2021 - 23:14:17: [navmesh.smx] Found .NAV file in maps\slender_fiveroundsatfreddys_b4.nav
+L 12/17/2021 - 23:14:17: [navmesh.smx] Is mesh analyzed: 0
+L 12/17/2021 - 23:14:17: [navmesh.smx] Nav version: 16; SubVersion: 2 (v10+); BSPSize: 95056764; MagicNumber: -17958194
+L 12/17/2021 - 23:14:17: [navmesh.smx] Place count: 0
+L 12/17/2021 - 23:14:17: [navmesh.smx] Has unnamed areas: true
+L 12/17/2021 - 23:14:17: [navmesh.smx] Area count: 2026
+L 12/17/2021 - 23:14:17: [navmesh.smx] Parsed 2026 areas in 0.009090 seconds.
+L 12/17/2021 - 23:14:17: [navmesh.smx] Ladder count: 0
+L 12/17/2021 - 23:14:17: [sf2.smx] Loaded special rounds file!
+L 12/17/2021 - 23:15:30: SourceMod log file session started (file "d:\tf2 server\servers\sf2 modified\server\tf\addons\sourcemod\logs\L20211217.log") (Version "1.10.0.6528")
+L 12/17/2021 - 23:15:30: [TF2ITEMS] "GiveNamedItem" offset = 481
+L 12/17/2021 - 23:15:35: [navmesh.smx] Found .NAV file in maps\slender_fiveroundsatfreddys_b4.nav
+L 12/17/2021 - 23:15:35: [navmesh.smx] Is mesh analyzed: 0
+L 12/17/2021 - 23:15:35: [navmesh.smx] Nav version: 16; SubVersion: 2 (v10+); BSPSize: 95056764; MagicNumber: -17958194
+L 12/17/2021 - 23:15:35: [navmesh.smx] Place count: 0
+L 12/17/2021 - 23:15:35: [navmesh.smx] Has unnamed areas: true
+L 12/17/2021 - 23:15:35: [navmesh.smx] Area count: 2026
+L 12/17/2021 - 23:15:35: [navmesh.smx] Parsed 2026 areas in 0.008923 seconds.
+L 12/17/2021 - 23:15:36: [navmesh.smx] Ladder count: 0
+L 12/17/2021 - 23:15:36: [sf2.smx] Loaded special rounds file!
+L 12/17/2021 - 23:16:31: SourceMod log file session started (file "d:\tf2 server\servers\sf2 modified\server\tf\addons\sourcemod\logs\L20211217.log") (Version "1.10.0.6528")
+L 12/17/2021 - 23:16:31: [TF2ITEMS] "GiveNamedItem" offset = 481
+L 12/17/2021 - 23:16:36: [navmesh.smx] Found .NAV file in maps\slender_fiveroundsatfreddys_b4.nav
+L 12/17/2021 - 23:16:37: [navmesh.smx] Is mesh analyzed: 0
+L 12/17/2021 - 23:16:37: [navmesh.smx] Nav version: 16; SubVersion: 2 (v10+); BSPSize: 95056764; MagicNumber: -17958194
+L 12/17/2021 - 23:16:37: [navmesh.smx] Place count: 0
+L 12/17/2021 - 23:16:37: [navmesh.smx] Has unnamed areas: true
+L 12/17/2021 - 23:16:37: [navmesh.smx] Area count: 2026
+L 12/17/2021 - 23:16:37: [navmesh.smx] Parsed 2026 areas in 0.009326 seconds.
+L 12/17/2021 - 23:16:37: [navmesh.smx] Ladder count: 0
+L 12/17/2021 - 23:16:38: [sf2.smx] Loaded special rounds file!
+L 12/17/2021 - 23:17:30: SourceMod log file session started (file "d:\tf2 server\servers\sf2 modified\server\tf\addons\sourcemod\logs\L20211217.log") (Version "1.10.0.6528")
+L 12/17/2021 - 23:17:30: [TF2ITEMS] "GiveNamedItem" offset = 481
+L 12/17/2021 - 23:17:35: [navmesh.smx] Found .NAV file in maps\slender_fiveroundsatfreddys_b4.nav
+L 12/17/2021 - 23:17:35: [navmesh.smx] Is mesh analyzed: 0
+L 12/17/2021 - 23:17:35: [navmesh.smx] Nav version: 16; SubVersion: 2 (v10+); BSPSize: 95056764; MagicNumber: -17958194
+L 12/17/2021 - 23:17:35: [navmesh.smx] Place count: 0
+L 12/17/2021 - 23:17:35: [navmesh.smx] Has unnamed areas: true
+L 12/17/2021 - 23:17:35: [navmesh.smx] Area count: 2026
+L 12/17/2021 - 23:17:35: [navmesh.smx] Parsed 2026 areas in 0.009478 seconds.
+L 12/17/2021 - 23:17:35: [navmesh.smx] Ladder count: 0
+L 12/17/2021 - 23:17:36: [sf2.smx] Loaded special rounds file!
+L 12/17/2021 - 23:41:58: SourceMod log file session started (file "d:\tf2 server\servers\sf2 modified\server\tf\addons\sourcemod\logs\L20211217.log") (Version "1.10.0.6528")
+L 12/17/2021 - 23:41:58: [TF2ITEMS] "GiveNamedItem" offset = 481
+L 12/17/2021 - 23:42:04: [navmesh.smx] Found .NAV file in maps\slender_fiveroundsatfreddys_b4.nav
+L 12/17/2021 - 23:42:04: [navmesh.smx] Is mesh analyzed: 0
+L 12/17/2021 - 23:42:04: [navmesh.smx] Nav version: 16; SubVersion: 2 (v10+); BSPSize: 95056764; MagicNumber: -17958194
+L 12/17/2021 - 23:42:04: [navmesh.smx] Place count: 0
+L 12/17/2021 - 23:42:04: [navmesh.smx] Has unnamed areas: true
+L 12/17/2021 - 23:42:04: [navmesh.smx] Area count: 2026
+L 12/17/2021 - 23:42:04: [navmesh.smx] Parsed 2026 areas in 0.009902 seconds.
+L 12/17/2021 - 23:42:05: [navmesh.smx] Ladder count: 0
+L 12/17/2021 - 23:42:05: [sf2.smx] Loaded special rounds file!
+L 12/17/2021 - 23:43:26: SourceMod log file session started (file "d:\tf2 server\servers\sf2 modified\server\tf\addons\sourcemod\logs\L20211217.log") (Version "1.10.0.6528")
+L 12/17/2021 - 23:43:26: [TF2ITEMS] "GiveNamedItem" offset = 481
+L 12/17/2021 - 23:43:31: [navmesh.smx] Found .NAV file in maps\slender_backrooms_r1a.nav
+L 12/17/2021 - 23:43:31: [navmesh.smx] Is mesh analyzed: 0
+L 12/17/2021 - 23:43:31: [navmesh.smx] Nav version: 16; SubVersion: 2 (v10+); BSPSize: 21627691; MagicNumber: -17958194
+L 12/17/2021 - 23:43:31: [navmesh.smx] Place count: 0
+L 12/17/2021 - 23:43:31: [navmesh.smx] Has unnamed areas: true
+L 12/17/2021 - 23:43:31: [navmesh.smx] Area count: 1023
+L 12/17/2021 - 23:43:31: [navmesh.smx] Parsed 1023 areas in 0.005501 seconds.
+L 12/17/2021 - 23:43:31: [navmesh.smx] Ladder count: 0
+L 12/17/2021 - 23:43:32: [sf2.smx] Loaded special rounds file!
+L 12/17/2021 - 23:47:02: SourceMod log file session started (file "d:\tf2 server\servers\sf2 modified\server\tf\addons\sourcemod\logs\L20211217.log") (Version "1.10.0.6528")
+L 12/17/2021 - 23:47:02: [TF2ITEMS] "GiveNamedItem" offset = 481
+L 12/17/2021 - 23:47:08: [navmesh.smx] Found .NAV file in maps\slender_backrooms_r1a.nav
+L 12/17/2021 - 23:47:08: [navmesh.smx] Is mesh analyzed: 0
+L 12/17/2021 - 23:47:08: [navmesh.smx] Nav version: 16; SubVersion: 2 (v10+); BSPSize: 21627691; MagicNumber: -17958194
+L 12/17/2021 - 23:47:08: [navmesh.smx] Place count: 0
+L 12/17/2021 - 23:47:08: [navmesh.smx] Has unnamed areas: true
+L 12/17/2021 - 23:47:08: [navmesh.smx] Area count: 1023
+L 12/17/2021 - 23:47:08: [navmesh.smx] Parsed 1023 areas in 0.005198 seconds.
+L 12/17/2021 - 23:47:08: [navmesh.smx] Ladder count: 0
+L 12/17/2021 - 23:47:09: [sf2.smx] Loaded special rounds file!

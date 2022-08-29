@@ -1,0 +1,187 @@
+	"skeleton"
+	{
+		"name"	"Skeleton King"
+		"type"	"2"
+		"speed"	"300.0"
+		"acceleration"	"2000.0"
+		"speed_max"	"415.0"
+		"walkspeed"	"60.0"
+		"walkspeed_max"	"120.0"
+		"model"	"models/bots/skeleton_sniper_boss/skeleton_sniper_boss.mdl"
+		"model_scale"	"1.3"
+		"eye_pos"	"0 0 72"
+		"mins"	"-16 -16 0"
+		"maxs"	"16 16 64"
+		"turnrate"	"400.0"
+		"fov"	"200"
+		"skin"	"2"
+		
+		"copy" "1"
+		"copy_max"	"1"
+		
+		"teleport_time_min"	"3.0"
+		"teleport_time_max"	"6.0"
+		"teleport_range_min"	"390.0"
+		"teleport_range_max"	"1110.0"
+		"teleport_target_rest_period"	"9.0"
+		"teleport_target_persistency_period"	"11.0"
+		"teleport_target_stress_min"	"0.3"
+		"teleport_target_stress_max"	"1.0"
+		"teleport_type"	"2"
+
+		"attack_props"	"0"
+		"attack_damageforce"	"12"
+		"attack_damage_vs_props"	"30"
+		
+		"static_on_look"	"0"
+		"static_on_radius"	"0"
+		"static_rate"	"0.8"
+		"static_rate_decay"	"0.4"
+		"static_radius"	"400.0"
+		"kill_radius"	"70.0"
+		"scare_radius"	"400.0"
+		"scare_cooldown"	"2.0"
+		
+		"anger_start"	"1.0"
+		"anger_page_time_diff"	"99999.0"
+		"anger_page_add"	"0.05"
+		
+		"appear_chance_threshold"	"0.33"
+		"appear_chance_min"	"0.0"
+		"appear_chance_max"	"1.0"
+		
+		"think_time_min"	"2.0"
+		"think_time_max"	"6.0"
+		
+		"death_cam"	"0"
+		"death_cam_pos"	"0 0 72"
+		"death_cam_overlay"	"1"
+		"death_cam_time_overlay_start"	"0.1"
+		"death_cam_time_death"	"1.3"
+		"death_cam_play_scare_sound"	"0"
+		
+		"blink_look_rate_multiply"	"0.66"
+		"blink_static_rate_multiply"	"0.85"
+		
+		"search_range"	"10000.0"
+		"search_alert_gracetime"	"0.0"
+		"search_chase_duration"	"7"
+		
+		"wake_radius"	"50.0"
+
+		"jump_speed"	"512.0"
+		"airspeed"	"512.0"
+		
+		"wander_move"	"0"
+		
+		"idle_lifetime"	"5.0"
+		
+		"attack_delay"	"0.15"
+		"attack_range"	"0.1"
+		"attack_damage"	"0.1"
+		"attack_damagetype"	"1048576"
+		"attack_punchvel"	"60 60 1"
+		"attack_endafter" "0.65"
+		
+		"stun_enabled"	"0"
+		"stun_health"	"150"
+		"stun_duration"	"2.5"
+		
+		"animation_idle"	"stand_MELEE"
+		"animation_walk"	"airwalk_MELEE"
+		"animation_walk_playbackrate"	"1.0"
+		"animation_run"		"airwalk_MELEE"
+		"animation_run_playbackrate"	"2"
+		"animation_attack"	"airwalk_MELEE"
+		"animation_attack_playbackrate"	"0.4"
+		"animation_stun"	"airwalk_MELEE"
+		"animation_stun_playbackrate"	"1"
+		
+		"blink_look_rate_multiply"	"1.5"
+		
+		"sound_chase_enemyinitial_cooldown_min"	"2.0"
+		"sound_chase_enemyinitial_cooldown_max"	"2.0"
+		"sound_chase_enemyinitial_volume"	"0.9"
+
+		"sound_idle_cooldown_min"	"2.0"
+		"sound_idle_cooldown_max"	"3.0"
+		"sound_idle_volume"	"1"
+
+		"sound_chase_music_visible_cooldown_min"	"0"
+		"sound_chase_music_visible_cooldown_max"	"2.0"
+		"sound_chase_music_visible_volume"	"1"
+		
+		"mod_precache"
+		{
+			"1"	"models/bots/skeleton_sniper_boss/skeleton_sniper_boss.mdl"
+			"2"	"models/bots/skeleton_sniper_boss/skeleton_sniper_gib_torso.mdl"
+			"3"	"models/bots/skeleton_sniper_boss/skeleton_sniper_gib_leg_r.mdl"
+			"4"	"models/bots/skeleton_sniper_boss/skeleton_sniper_gib_leg_l.mdl"
+			"5"	"models/bots/skeleton_sniper_boss/skeleton_sniper_gib_arm_r.mdl"
+			"6"	"models/bots/skeleton_sniper_boss/skeleton_sniper_gib_arm_l.mdl"
+		}
+		
+		"mod_download"
+		{
+		}
+		
+		"mat_download"
+		{
+		}
+		
+		"download"
+		{
+		}
+		
+		"sound_spawn_all"
+		{
+			"1"	"vo/halloween_mann_brothers/sf13_blutarch_enemies10.wav"
+			"2"	"vo/halloween_mann_brothers/sf13_blutarch_enemies12.wav"
+			"3"	"vo/halloween_mann_brothers/sf13_blutarch_enemies13.wav"
+			"4"	"vo/halloween_mann_brothers/sf13_blutarch_enemies15.wav"
+			"5"	"vo/halloween_mann_brothers/sf13_redmond_enemies05.wav"
+			"6"	"vo/halloween_mann_brothers/sf13_redmond_enemies06.wav"
+			"7"	"vo/halloween_mann_brothers/sf13_redmond_enemies07.wav"
+		}
+
+		"sound_scare_player"
+		{
+			"1"	"misc/halloween/gotohell.wav"
+		}
+		
+		"sound_chase_music"
+		{
+			"1"	"slender/amnesia/suitorchase.wav"
+		}
+		
+		"sound_static"
+		{
+			"1"	"slender/static.wav"
+		}
+		
+		"sound_idle"
+		{
+			"1"	"misc/halloween/skeletons/skelly_giant_01.wav"
+			"2"	"misc/halloween/skeletons/skelly_giant_02.wav"
+			"3"	"misc/halloween/skeletons/skelly_giant_03.wav"
+		}
+		
+		"sound_alertofenemy"
+		{
+			"1"	"misc/halloween/skeletons/skelly_giant_01.wav"
+			"2"	"misc/halloween/skeletons/skelly_giant_02.wav"
+			"3"	"misc/halloween/skeletons/skelly_giant_03.wav"
+		}
+
+		"sound_player_death_all"
+		{
+			"1"	"misc/halloween/skeleton_break.wav"
+		}
+		
+		"sound_chasingenemy"
+		{
+			"1"	"misc/halloween/skeletons/skelly_giant_01.wav"
+			"2"	"misc/halloween/skeletons/skelly_giant_02.wav"
+			"3"	"misc/halloween/skeletons/skelly_giant_03.wav"
+		}
+	}

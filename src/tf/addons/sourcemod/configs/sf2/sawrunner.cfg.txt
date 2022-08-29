@@ -1,0 +1,214 @@
+	"sawrunner"
+	{
+		"name"	"Sawrunner"
+		"type"	"2"
+		"speed"	"320.0"
+		"acceleration"	"1600.0"
+		"speed_max"	"420.0"
+		"walkspeed"	"60.0"
+		"walkspeed_max"	"120.0"
+		"model"	"models/cof/sawrunnerfix.mdl"
+		"model_scale"	"1.25"
+		"eye_pos"	"0 0 72"
+		"mins"	"-16 -16 0"
+		"maxs"	"16 16 64"
+		"turnrate"	"400.0"
+		"fov"	"200"
+		
+		"copy" "1"
+		"copy_max"	"1"
+		
+		"teleport_time_min"	"4.0"
+		"teleport_time_max"	"6.0"
+		"teleport_range_min"	"400.0"
+		"teleport_range_max"	"1400.0"
+		"teleport_target_rest_period"	"12.0"
+		"teleport_target_persistency_period"	"6.0"
+		"teleport_target_stress_min"	"0.5"
+		"teleport_target_stress_max"	"1.0"
+		"teleport_type"	"2"
+
+		"attack_props"	"0"
+		"attack_damageforce"	"12"
+		"attack_damage_vs_props"	"30"
+		
+		"static_on_look"	"0"
+		"static_on_radius"	"0"
+		"static_rate"	"0.75"
+		"static_rate_decay"	"0.9"
+		"scare_radius"	"512.0"
+		"scare_cooldown"	"1.0"
+		
+		"anger_start"	"0.8"
+		"anger_page_time_diff"	"99999.0"
+		"anger_page_add"	"0.05"
+		
+		"appear_chance_threshold"	"0.30"
+		"appear_chance_min"	"0.0"
+		"appear_chance_max"	"1.0"
+		
+		"think_time_min"	"4.0"
+		"think_time_max"	"6.0"
+		
+		"search_range"	"1024.0"
+		"search_alert_gracetime"	"1.0"
+		"search_chase_duration"	"5"
+		
+		"wake_radius"	"50.0"
+
+		"jump_speed"	"512.0"
+		"airspeed"	"420.0"
+		
+		"wander_move"	"0"
+		
+		"idle_lifetime"	"6"
+		
+		"attack_delay"	"0.15"
+		"attack_range"	"130.0"
+		"attack_begin_range"	"100"
+		"attack_damage"	"400.0"
+		"attack_damagetype"	"1114112"
+		"attack_punchvel"	"12 15 5"
+		"attack_endafter" "0.75"
+		
+		"stun_enabled"	"1"
+		"stun_health"	"60"
+		"stun_duration"	"0.3"
+		
+		"animation_idle"	"idle"
+		"animation_walk"	"walk"
+		"animation_walk_playbackrate"	"0.5"
+		"animation_run"		"walk"
+		"animation_run_playbackrate"	"2.5"
+		"animation_attack"	"attack1"
+		"animation_attack_playbackrate"	"0.4"
+		"animation_stun"	"flinch"
+		"animation_stun_playbackrate"	"1"
+		
+		"blink_look_rate_multiply"	"1.5"
+		
+		"sound_chase_enemyinitial_cooldown_min"	"2.0"
+		"sound_chase_enemyinitial_cooldown_max"	"2.0"
+		"sound_chase_enemyinitial_volume"	"0.9"
+
+		"sound_idle_cooldown_min"	"2.0"
+		"sound_idle_cooldown_max"	"3.0"
+		"sound_idle_volume"	"1"
+
+		"sound_chase_music_visible_cooldown_min"	"0"
+		"sound_chase_music_visible_cooldown_max"	"2.0"
+		"sound_chase_music_visible_volume"	"1"
+		
+		"mod_precache"
+		{
+			"1"	"models/cof/sawrunnerfix.mdl"
+		}
+		
+		"mod_download"
+		{
+			"1"	"models/cof/sawrunnerfix"
+		}
+		
+		"mat_download"
+		{
+			"1"	"materials/models/cof/sawrunner/headlol"
+			"2"	"materials/models/cof/sawrunner/skoside_2"
+			"3"	"materials/models/cof/sawrunner/byxa_fram_2"
+			"4"	"materials/models/cof/sawrunner/byxa_bak_2"
+			"5"	"materials/models/cof/sawrunner/sko_under"
+			"6"	"materials/models/cof/sawrunner/hand"
+			"7"	"materials/models/cof/sawrunner/jacket_front"
+			"8"	"materials/models/cof/sawrunner/jacket_back"
+			"9"	"materials/models/cof/sawrunner/chainsawtex1"
+			"10"	"materials/models/cof/sawrunner/tex1"
+		}
+		
+		"download"
+		{
+			"1"	"materials/models/cof/sawrunner/byxa_bak_2_normal.vtf"
+			"2"	"materials/models/cof/sawrunner/byxa_fram_2_normal.vtf"
+			"3"	"materials/models/cof/sawrunner/chainsawtex1_normal.vtf"
+			"4"	"materials/models/cof/sawrunner/hand_normal.vtf"
+			"5"	"materials/models/cof/sawrunner/headlol_normal.vtf"
+			"6"	"materials/models/cof/sawrunner/jacket_back_normal.vtf"
+			"7"	"materials/models/cof/sawrunner/jacket_front_normal.vtf"
+			"8"	"materials/models/cof/sawrunner/tex1_normal.vtf"
+		}
+		
+		"sound_spawn_all"
+		{
+			"1"	"slender/cof/sawhello.wav"
+		}
+
+		"sound_scare_player"
+		{
+		}
+		
+		"sound_chase_music"
+		{
+			"1"	"slender/cof/sawtheme.wav"
+		}
+		
+		"sound_chase_music_visible"
+		{
+			"1" "slender/cof/sawloop.wav"
+		}
+		
+		"sound_static"
+		{
+			"1"	"slender/static.wav"
+		}
+		
+		"sound_idle"
+		{
+			"1" "slender/cof/sawmiss.mp3"
+		}
+		
+		"sound_alertofenemy"
+		{
+			"1" "slender/cof/sawalert1.mp3"
+			"2" "slender/cof/sawalert2.mp3"
+			"3" "slender/cof/sawalert3.mp3"
+		}
+		
+		"sound_chase_enemyinitial"
+		{
+		}
+		
+		"sound_chasingenemy"
+		{
+		}
+		
+		"sound_hitenemy"
+		{
+			"1"	"slender/cof/sawhit.mp3"
+		}
+		
+		"sound_stun"
+		{
+		}
+		
+		"sound_missenemy"
+		{
+			"1"	"slender/cof/sawmiss.mp3"
+		}
+
+		"effects"
+		{
+			"pretty_light"
+			{
+				"type"	"dynamiclight"
+				"event"	"constant"
+				"origin"	"0 0 90"
+				"origin_custom"	""
+				"angles"	"0 0 0"
+				"angles_custom"	"0 0 0"
+				
+				"rendercolor"	"100 255 255 255"
+				"distance"	"120.0"
+				"brightness"	"7"
+				"cone"	"-1"
+				"spawnflags"	"1"
+			}
+		}
+	}

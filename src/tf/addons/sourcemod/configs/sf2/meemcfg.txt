@@ -1,0 +1,151 @@
+	"meem"
+	{
+		"name"	"MeeM"
+		"type"	"2"
+		"model"	"models/props_training/target_medic.mdl"
+		"model_scale"	"1.5"
+		"eye_pos"	"0 0 70"
+		"pos_offset"	"0 0 0"
+		"mins"	"-25 -25 0"
+		"maxs"	"25 25 64"
+		"turnrate"	"9001.0"
+		
+		"speed"	"100.0"
+		"speed_max"	"150.0"
+		"acceleration"	"150.0"
+		"walkspeed"	"50"
+		"walkspeed_max"	"150"
+		"airspeed"	"20.0"
+		"fov"	"360"
+		
+		"jump_speed"	"0.0"
+		
+		"copy"	"1"
+		"copy_max"	"1"
+		
+		"animation_idle"	"idle"
+		"animation_idle_playbackrate"	"0.0"
+		"animation_walk"	"idle"
+		"animation_walk_playbackrate"	"0.0"
+		"animation_run"	"idle"
+		"animation_run_playbackrate"	"0.0"
+		
+		"static_shake"	"1"
+		"static_on_look"	"1"
+		"static_on_look_gracetime"	"0.0"
+		"static_on_radius"	"1"
+		"static_rate"	"0.3"
+		"static_rate_decay"	"0.7"
+		"static_radius"	"400.0"
+		
+		"view_shake"	"0"
+		
+		"scare_radius"	"430.0"
+		"scare_cooldown"	"3.5"
+		"scare_static_amount"	"0.4"
+		
+		"kill_radius"	"85.0"
+		
+		"anger_start"	"0.80"
+		"anger_page_time_diff"	"120.0"
+		"anger_page_add"	"0.05"
+		
+		"teleport_range_min"	"400.0"
+		"teleport_range_max"	"1024.0"
+		"teleport_type"	"0"
+		"teleport_time_interval"	"8.0"
+		
+		"search_range"	"10000.0"
+		"search_alert_gracetime"	"0.0"
+		"search_chase_duration"	"3.0"
+		
+		"appear_chance_threshold"	"0.30"
+		"appear_chance_min"	"0.0"
+		"appear_chance_max"	"1.0"
+		
+		"think_time_min"	"2.0"
+		"think_time_max"	"5.0"
+		
+		"death_cam"	"1"
+		"death_cam_pos"	"0 0 80"
+		"death_cam_overlay"	"1"
+		"death_cam_time_overlay_start"	"1.25"
+		"death_cam_time_death"	"2.6"
+		"death_cam_play_scare_sound"	"0"
+
+		"sound_spawn_all"
+		{
+			"1"	"slender/meem/meemstart.mp3"
+		}
+		
+		"sound_scare_player"
+		{
+			"1"	"slender/meem/meemstart.mp3"
+		}
+		
+		"sound_player_death"
+		{
+			"1"	"slender/meem/meemcommon.mp3"
+		}
+		
+		"sound_jumpscare"
+		{
+			"1"	"slender/meem/meemcommon.mp3"
+		}
+		
+		"overlay_player_death"
+		{
+		//	"1"	"overlays/slender/meemdeath"
+		}
+		
+		"overlay_jumpscare"
+		{
+		}
+		
+		"sound_player_death_all"
+		{
+			"1"	"slender/meem/meemstart.mp3"
+		}
+		
+		"sound_static"
+		{
+			"1"	"slender/meem/heartbeat.wav"
+		}
+		
+		"mod_download"
+		{
+		}
+		
+		"mod_precache"
+		{
+			"1"	"models/props_training/target_medic.mdl"
+		}
+		
+		"mat_download"
+		{
+		//	"1"	"materials/overlays/slender/meemdeath"
+		}
+		
+		"download"
+		{
+		}
+
+		"effects"
+		{
+			"pretty_light"
+			{
+				"type"	"dynamiclight"
+				"event"	"constant"
+				"origin"	"0 0 60"
+				"origin_custom"	""
+				"angles"	"0 0 0"
+				"angles_custom"	"0 0 0"
+				
+				"rendercolor"	"100 255 255 255"
+				"distance"	"120.0"
+				"brightness"	"7"
+				"cone"	"-1"
+				"spawnflags"	"1"
+			}
+		}
+	}

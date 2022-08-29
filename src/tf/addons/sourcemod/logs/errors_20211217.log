@@ -1,0 +1,80 @@
+L 12/17/2021 - 18:46:32: SourceMod error session started
+L 12/17/2021 - 18:46:32: Info (map "slender_arizona_b1") (file "d:\tf2 server\servers\sf2 modified\server\tf\addons\sourcemod\logs\errors_20211217.log")
+L 12/17/2021 - 18:46:32: [tf2attributes.smx] Could not initialize call to CEconItem::SetCustomName
+L 12/17/2021 - 18:55:40: SourceMod error session started
+L 12/17/2021 - 18:55:40: Info (map "slender_arizona_b1") (file "d:\tf2 server\servers\sf2 modified\server\tf\addons\sourcemod\logs\errors_20211217.log")
+L 12/17/2021 - 18:55:40: [tf2attributes.smx] Could not initialize call to CEconItem::SetCustomName
+L 12/17/2021 - 19:03:58: SourceMod error session started
+L 12/17/2021 - 19:03:58: Info (map "slender_arizona_b1") (file "d:\tf2 server\servers\sf2 modified\server\tf\addons\sourcemod\logs\errors_20211217.log")
+L 12/17/2021 - 19:03:58: [tf2attributes.smx] Could not initialize call to CEconItem::SetCustomName
+L 12/17/2021 - 19:14:06: SourceMod error session started
+L 12/17/2021 - 19:14:06: Info (map "slender_arizona_b1") (file "d:\tf2 server\servers\sf2 modified\server\tf\addons\sourcemod\logs\errors_20211217.log")
+L 12/17/2021 - 19:14:06: [tf2attributes.smx] Could not initialize call to CEconItem::SetCustomName
+L 12/17/2021 - 19:40:46: SourceMod error session started
+L 12/17/2021 - 19:40:46: Info (map "slender_arizona_b1") (file "d:\tf2 server\servers\sf2 modified\server\tf\addons\sourcemod\logs\errors_20211217.log")
+L 12/17/2021 - 19:40:46: [SM] Unable to load plugin "sf2.smx": Required extension "dhooks" file("dhooks.ext") not running
+L 12/17/2021 - 19:40:46: [tf2attributes.smx] Could not initialize call to CEconItem::SetCustomName
+L 12/17/2021 - 19:49:26: SourceMod error session started
+L 12/17/2021 - 19:49:26: Info (map "slender_arizona_b1") (file "d:\tf2 server\servers\sf2 modified\server\tf\addons\sourcemod\logs\errors_20211217.log")
+L 12/17/2021 - 19:49:26: [SM] Unable to load plugin "sf2.smx": Required extension "dhooks" file("dhooks.ext") not running
+L 12/17/2021 - 19:49:26: [tf2attributes.smx] Could not initialize call to CEconItem::SetCustomName
+L 12/17/2021 - 20:07:59: SourceMod error session started
+L 12/17/2021 - 20:07:59: Info (map "slender_arizona_b1") (file "d:\tf2 server\servers\sf2 modified\server\tf\addons\sourcemod\logs\errors_20211217.log")
+L 12/17/2021 - 20:07:59: [SM] Exception reported: Failed to get CreateInterface
+L 12/17/2021 - 20:07:59: [SM] Blaming: dhooks-test.smx
+L 12/17/2021 - 20:07:59: [SM] Call stack trace:
+L 12/17/2021 - 20:07:59: [SM]   [0] SetFailState
+L 12/17/2021 - 20:07:59: [SM]   [1] Line 100, D:\TF2 Server\Servers\SF2 Modified\Server\tf\addons\sourcemod\scripting\dhooks-test.sp::OnPluginStart
+L 12/17/2021 - 20:07:59: [SM] Unable to load plugin "dhooks-test.smx": Error detected in plugin startup (see error logs)
+L 12/17/2021 - 20:07:59: [SM] Unable to load plugin "rockthevote.smx": Could not find required plugin "mapchooser"
+L 12/17/2021 - 20:07:59: [SM] Unable to load plugin "sf2.smx": Could not find required plugin "nativevotes"
+L 12/17/2021 - 20:07:59: [tf2attributes.smx] Could not initialize call to CEconItem::SetCustomName
+L 12/17/2021 - 20:07:59: [SM] Exception reported: Error, can't read file containing the item list : addons\sourcemod\configs\tf2items.weapons.txt
+L 12/17/2021 - 20:07:59: [SM] Blaming: tf2items_manager.smx
+L 12/17/2021 - 20:07:59: [SM] Call stack trace:
+L 12/17/2021 - 20:07:59: [SM]   [0] SetFailState
+L 12/17/2021 - 20:07:59: [SM]   [1] Line 261, D:\TF2 Server\Servers\SF2 Modified\Server\tf\addons\sourcemod\scripting\tf2items_manager.sp::ParseItems
+L 12/17/2021 - 20:07:59: [SM]   [2] Line 58, D:\TF2 Server\Servers\SF2 Modified\Server\tf\addons\sourcemod\scripting\tf2items_manager.sp::OnPluginStart
+L 12/17/2021 - 20:07:59: [SM] Unable to load plugin "tf2items_manager.smx": Error detected in plugin startup (see error logs)
+L 12/17/2021 - 20:13:49: SourceMod error session started
+L 12/17/2021 - 20:13:49: Info (map "slender_arizona_b1") (file "d:\tf2 server\servers\sf2 modified\server\tf\addons\sourcemod\logs\errors_20211217.log")
+L 12/17/2021 - 20:13:49: [tf2attributes.smx] Could not initialize call to CEconItem::SetCustomName
+L 12/17/2021 - 20:16:48: SourceMod error session started
+L 12/17/2021 - 20:16:48: Info (map "slender_arizona_b1") (file "d:\tf2 server\servers\sf2 modified\server\tf\addons\sourcemod\logs\errors_20211217.log")
+L 12/17/2021 - 20:16:48: [tf2attributes.smx] Could not initialize call to CEconItem::SetCustomName
+L 12/17/2021 - 20:19:07: SourceMod error session started
+L 12/17/2021 - 20:19:07: Info (map "slender_arizona_b1") (file "d:\tf2 server\servers\sf2 modified\server\tf\addons\sourcemod\logs\errors_20211217.log")
+L 12/17/2021 - 20:19:07: [tf2attributes.smx] Could not initialize call to CEconItem::SetCustomName
+L 12/17/2021 - 22:37:47: SourceMod error session started
+L 12/17/2021 - 22:37:47: Info (map "slender_mansion_b3b") (file "d:\tf2 server\servers\sf2 modified\server\tf\addons\sourcemod\logs\errors_20211217.log")
+L 12/17/2021 - 22:37:47: [tf2attributes.smx] Could not initialize call to CEconItem::SetCustomName
+L 12/17/2021 - 22:55:37: SourceMod error session started
+L 12/17/2021 - 22:55:37: Info (map "slender_fiveroundsatfreddys_b4") (file "d:\tf2 server\servers\sf2 modified\server\tf\addons\sourcemod\logs\errors_20211217.log")
+L 12/17/2021 - 22:55:37: [tf2attributes.smx] Could not initialize call to CEconItem::SetCustomName
+L 12/17/2021 - 23:07:03: SourceMod error session started
+L 12/17/2021 - 23:07:03: Info (map "slender_fiveroundsatfreddys_b4") (file "d:\tf2 server\servers\sf2 modified\server\tf\addons\sourcemod\logs\errors_20211217.log")
+L 12/17/2021 - 23:07:03: [tf2attributes.smx] Could not initialize call to CEconItem::SetCustomName
+L 12/17/2021 - 23:11:28: SourceMod error session started
+L 12/17/2021 - 23:11:28: Info (map "slender_fiveroundsatfreddys_b4") (file "d:\tf2 server\servers\sf2 modified\server\tf\addons\sourcemod\logs\errors_20211217.log")
+L 12/17/2021 - 23:11:28: [tf2attributes.smx] Could not initialize call to CEconItem::SetCustomName
+L 12/17/2021 - 23:14:11: SourceMod error session started
+L 12/17/2021 - 23:14:11: Info (map "slender_fiveroundsatfreddys_b4") (file "d:\tf2 server\servers\sf2 modified\server\tf\addons\sourcemod\logs\errors_20211217.log")
+L 12/17/2021 - 23:14:11: [tf2attributes.smx] Could not initialize call to CEconItem::SetCustomName
+L 12/17/2021 - 23:15:30: SourceMod error session started
+L 12/17/2021 - 23:15:30: Info (map "slender_fiveroundsatfreddys_b4") (file "d:\tf2 server\servers\sf2 modified\server\tf\addons\sourcemod\logs\errors_20211217.log")
+L 12/17/2021 - 23:15:30: [tf2attributes.smx] Could not initialize call to CEconItem::SetCustomName
+L 12/17/2021 - 23:16:31: SourceMod error session started
+L 12/17/2021 - 23:16:31: Info (map "slender_fiveroundsatfreddys_b4") (file "d:\tf2 server\servers\sf2 modified\server\tf\addons\sourcemod\logs\errors_20211217.log")
+L 12/17/2021 - 23:16:31: [tf2attributes.smx] Could not initialize call to CEconItem::SetCustomName
+L 12/17/2021 - 23:17:30: SourceMod error session started
+L 12/17/2021 - 23:17:30: Info (map "slender_fiveroundsatfreddys_b4") (file "d:\tf2 server\servers\sf2 modified\server\tf\addons\sourcemod\logs\errors_20211217.log")
+L 12/17/2021 - 23:17:30: [tf2attributes.smx] Could not initialize call to CEconItem::SetCustomName
+L 12/17/2021 - 23:41:59: SourceMod error session started
+L 12/17/2021 - 23:41:59: Info (map "slender_fiveroundsatfreddys_b4") (file "d:\tf2 server\servers\sf2 modified\server\tf\addons\sourcemod\logs\errors_20211217.log")
+L 12/17/2021 - 23:41:59: [tf2attributes.smx] Could not initialize call to CEconItem::SetCustomName
+L 12/17/2021 - 23:43:26: SourceMod error session started
+L 12/17/2021 - 23:43:26: Info (map "slender_backrooms_r1a") (file "d:\tf2 server\servers\sf2 modified\server\tf\addons\sourcemod\logs\errors_20211217.log")
+L 12/17/2021 - 23:43:26: [tf2attributes.smx] Could not initialize call to CEconItem::SetCustomName
+L 12/17/2021 - 23:47:03: SourceMod error session started
+L 12/17/2021 - 23:47:03: Info (map "slender_backrooms_r1a") (file "d:\tf2 server\servers\sf2 modified\server\tf\addons\sourcemod\logs\errors_20211217.log")
+L 12/17/2021 - 23:47:03: [tf2attributes.smx] Could not initialize call to CEconItem::SetCustomName
