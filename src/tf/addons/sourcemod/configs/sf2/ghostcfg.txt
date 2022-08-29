@@ -1,0 +1,178 @@
+	"tf2ghost"
+	{
+		"name"	"TF2 Ghost"
+		"type"	"2"
+		"speed"	"220.0"
+		"speed_max"	"300.0"
+		"acceleration"	"2000.0"
+		"walkspeed"	"100.0"
+		"walkspeed_max"	"120.0"
+		"model"	"models/props_halloween/ghost.mdl"
+		"model_scale"	"1"
+		"eye_pos"	"0 0 70"
+		"mins"	"-16 -16 0"
+		"maxs"	"16 16 64"
+		"turnrate"	"300.0"
+		"fov"	"200"
+		
+		"copy" "1"
+		"copy_max"	"3"
+		
+		"teleport_time_min"	"4.0"
+		"teleport_time_max"	"8.0"
+		"teleport_range_min"	"400.0"
+		"teleport_range_max"	"1200.0"
+		"teleport_target_rest_period"	"6.0"
+		"teleport_target_persistency_period"	"10.0"
+		"teleport_target_stress_min"	"0.4"
+		"teleport_target_stress_max"	"1.0"
+		"teleport_type"	"2"
+
+		"attack_props"	"0"
+		"attack_damageforce"	"12"
+		"attack_damage_vs_props"	"30"
+		
+		"static_on_look"	"0"
+		"static_on_radius"	"1"
+		"static_rate"	"0.4"
+		"static_rate_decay"	"0.4"
+		"static_radius"	"150.0"
+		"kill_radius"	"75.0"
+		"scare_radius"	"450.0"
+		"scare_cooldown"	"2.0"
+		
+		"anger_start"	"0.5"
+		"anger_page_time_diff"	"99999.0"
+		"anger_page_add"	"0.1"
+		
+		"appear_chance_threshold"	"0.70"
+		"appear_chance_min"	"0.0"
+		"appear_chance_max"	"1.0"
+		
+		"think_time_min"	"3.0"
+		"think_time_max"	"6.0"
+		
+		"blink_look_rate_multiply"	"1.0"
+		"blink_static_rate_multiply"	"1.0"
+		
+		"sound_idle_cooldown_min"	"4.0"
+		"sound_idle_cooldown_max"	"8.0"
+		"sound_idle_volume"	"1"
+		
+		"sound_alertofenemy_cooldown_min"	"2.0"
+		"sound_alertofenemy_cooldown_max"	"4.0"
+		"sound_alertofenemy_volume"	"1"
+		
+		"sound_chasingenemy_cooldown_min"	"3.0"
+		"sound_chasingenemy_cooldown_max"	"6.0"
+		"sound_chasingenemy_volume"	"1"
+		
+		"search_range"	"1048.0"
+		"search_alert_gracetime"	"2.0"
+		"search_chase_duration"	"8"
+		
+		"idle_lifetime"	"6.0"
+
+		"jump_speed"	"512.0"
+		"airspeed"	"400.0"
+		
+		"wake_radius"	"50.0"
+		
+		"wander_move"	"1"
+
+		"attack_delay"	"0.1"
+		"attack_range"	"0.1"
+		"attack_damage"	"0.1"
+		"attack_damagetype"	"2"
+		"attack_punchvel"	"5 5 5"
+		"attack_endafter" "0.1"
+		
+		"stun_enabled"	"0"
+		"stun_health"	"50"
+		"stun_duration"	"2.5"
+		
+		"animation_idle"	"idle"
+		"animation_walk"	"idle"
+		"animation_walk_playbackrate"	"1.0"
+		"animation_run"		"idle"
+		"animation_run_playbackrate"	"2.0"
+		"animation_attack"	"idle"
+		"animation_attack_playbackrate"	"1.0"
+		"animation_stun"	"idle"
+		"animation_stun_playbackrate"	"1.0"
+		
+		"mod_precache"
+		{
+			"1"	"models/props_halloween/ghost.mdl"
+		}
+		
+		"mod_download"
+		{
+		}
+		
+		"mat_download"
+		{
+		}
+		
+		"download"
+		{
+		}
+	
+		"sound_spawn_all"
+		{
+			"1"	"misc/halloween_eyeball/vortex_eyeball_moved.wav"
+		}
+
+		"sound_player_death_all"
+		{
+			"1"	"vo/halloween_boo1.wav"
+			"2"	"vo/halloween_boo2.wav"
+			"3"	"vo/halloween_boo3.wav"
+			"4"	"vo/halloween_boo4.wav"
+			"5"	"vo/halloween_boo5.wav"
+			"6"	"vo/halloween_boo6.wav"
+			"7"	"vo/halloween_boo7.wav"
+		}
+		
+		"sound_scare_player"
+		{
+			"1"	"ambient/halloween/mysterious_perc_01.wav"
+			"2"	"ambient/halloween/mysterious_perc_02.wav"
+			"3"	"ambient/halloween/mysterious_perc_03.wav"
+		}
+		
+		"sound_static"
+		{
+		}
+		
+		"sound_chase_music"
+		{
+			"1"	"ambient/halloween/bombinomicon_loop.wav"
+		}
+		
+		"sound_idle"
+		{
+			"1"	"vo/halloween_moan1.wav"
+			"2"	"vo/halloween_moan2.wav"
+			"3"	"vo/halloween_moan3.wav"
+			"4"	"vo/halloween_moan4.wav"
+		}
+		
+		"sound_alertofenemy"
+		{
+			"1"	"vo/halloween_haunted1.wav"
+			"2"	"vo/halloween_haunted2.wav"
+			"3"	"vo/halloween_haunted3.wav"
+			"4"	"vo/halloween_haunted4.wav"
+			"5"	"vo/halloween_haunted5.wav"
+		}
+		
+		"sound_chasingenemy"
+		{
+			"1"	"vo/halloween_moan1.wav"
+			"2"	"vo/halloween_moan2.wav"
+			"3"	"vo/halloween_moan3.wav"
+			"4"	"vo/halloween_moan4.wav"
+		}
+		
+	}

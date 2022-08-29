@@ -1,0 +1,23 @@
+L 08/28/2022 - 20:00:42: SourceMod log file session started (file "f:\tf2 server\servers\sf2 modified\server\tf\addons\sourcemod\logs\L20220828.log") (Version "1.10.0.6528")
+L 08/28/2022 - 20:00:42: [TF2ITEMS] "GiveNamedItem" offset = 481
+L 08/28/2022 - 20:01:05: [navmesh.smx] Found .NAV file in maps\slender_backrooms_r1a.nav
+L 08/28/2022 - 20:01:05: [navmesh.smx] Is mesh analyzed: 0
+L 08/28/2022 - 20:01:05: [navmesh.smx] Nav version: 16; SubVersion: 2 (v10+); BSPSize: 21627691; MagicNumber: -17958194
+L 08/28/2022 - 20:01:05: [navmesh.smx] Place count: 0
+L 08/28/2022 - 20:01:05: [navmesh.smx] Has unnamed areas: true
+L 08/28/2022 - 20:01:05: [navmesh.smx] Area count: 1023
+L 08/28/2022 - 20:01:05: [navmesh.smx] Parsed 1023 areas in 0.004580 seconds.
+L 08/28/2022 - 20:01:05: [navmesh.smx] Ladder count: 0
+L 08/28/2022 - 20:01:05: [UPDATER] Successfully updated gamedata file "sm-tf2.games.txt"
+L 08/28/2022 - 20:01:05: [UPDATER] Successfully updated gamedata file "sm-cstrike.games/game.csgo.txt"
+L 08/28/2022 - 20:01:05: [UPDATER] Successfully updated gamedata file "sdktools.games/engine.csgo.txt"
+L 08/28/2022 - 20:01:05: [UPDATER] Successfully updated gamedata file "sdktools.games/game.reactivedrop.txt"
+L 08/28/2022 - 20:01:05: [UPDATER] Successfully updated gamedata file "sdktools.games/game.zpanic.txt"
+L 08/28/2022 - 20:01:05: [UPDATER] Successfully updated gamedata file "sdktools.games/game.tf.txt"
+L 08/28/2022 - 20:01:05: [UPDATER] Successfully updated gamedata file "sdkhooks.games/engine.ep2v.txt"
+L 08/28/2022 - 20:01:05: [UPDATER] Successfully updated gamedata file "sdkhooks.games/game.reactivedrop.txt"
+L 08/28/2022 - 20:01:05: [UPDATER] Successfully updated gamedata file "sdkhooks.games/game.zpanic.txt"
+L 08/28/2022 - 20:01:05: [UPDATER] Successfully updated gamedata file "core.games/engine.swarm.txt"
+L 08/28/2022 - 20:01:05: [UPDATER] Successfully updated gamedata file "tf2.items.txt"
+L 08/28/2022 - 20:01:05: [UPDATER] SourceMod has been updated, please reload it or restart your server.
+L 08/28/2022 - 20:01:12: [sf2.smx] Loaded special rounds file!

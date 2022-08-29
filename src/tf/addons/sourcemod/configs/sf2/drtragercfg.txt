@@ -1,0 +1,200 @@
+// Copy and paste the following boss profile into the main profiles.cfg file under addons/sourcemod/configs/sf2.
+// Intended for the slender map The Ward, please use the map with him, as he's designed for that map.
+// Model ported from Outlast by Vincentor, profile created by Glubbable & map created by Simply Delicious & Glubbable.
+
+	"drtrager"
+	{
+		"name"	"Dr Trager"
+		"type"	"2"
+		"speed"	"380.0"
+		"acceleration"	"4000.0"
+		"speed_max"	"440.0"
+		"walkspeed"	"120.0"
+		"walkspeed_max"	"150.0"
+		"model"	"models/vince_sf/drtrager/drtrager.mdl"
+		"model_scale"	"0.8"
+		"eye_pos"	"0 0 72"
+		"mins"	"-16 -16 0"
+		"maxs"	"16 16 64"
+		"turnrate"	"600.0"
+		"fov"	"1000"
+		
+		"copy" "0"
+		"copy_max"	"0"
+		
+		"teleport_time_min"	"4.0"
+		"teleport_time_max"	"8.0"
+		"teleport_range_min"	"300.0"
+		"teleport_range_max"	"1500.0"
+		"teleport_target_rest_period"	"10.0"
+		"teleport_target_persistency_period"	"5.0"
+		"teleport_target_stress_min"	"0.9"
+		"teleport_target_stress_max"	"1.0"
+		"teleport_type"	"2"
+
+		"attack_props"	"0"
+		"attack_damageforce"	"12"
+		"attack_damage_vs_props"	"30"
+		
+		"static_shake"	"1"
+		"static_on_look"	"0"
+		"static_on_look_gracetime"	"0.0"
+		"static_on_radius"	"1"
+		"static_rate"	"0.3"
+		"static_rate_decay"	"0.7"
+		"static_radius"	"100.0"
+		"scare_radius"	"600.0"
+		"scare_cooldown"	"6.0"
+		
+		"anger_start"	"1.0"
+		"anger_page_time_diff"	"99999.0"
+		"anger_page_add"	"0.00"
+		
+		"appear_chance_threshold"	"0.20"
+		"appear_chance_min"	"0.0"
+		"appear_chance_max"	"1.0"
+		
+		"search_range"	"1024.0"
+		"search_alert_gracetime"	"1.75"
+		"search_chase_duration"	"15"
+		"search_chase_persistency_time_init"	"3.0"
+		"search_chase_persistency_time_add_newtarget"	"0.0"
+		"search_chase_persistency_time_add_visible_min"	"0.1"
+		"search_chase_persistency_time_add_visible_max"	"5.0"
+		"search_chase_persistency_time_add_attack"	"1.0"
+		
+		"wake_radius"	"1000.0"
+
+		"jump_speed"	"420.0"
+		"airspeed"	"420.0"
+		
+		"wander_move"	"1"
+		
+		"idle_lifetime"	"12.0"
+		
+		"attack_delay"	"0.0"
+		"attack_range"	"125.0"
+		"attack_begin_range"	"75"
+		"attack_damage"	"500.0"
+		"attack_damagetype"	"1114112"
+		"attack_punchvel"	"12 15 5"
+		"attack_endafter" "0.1"
+		
+		"stun_enabled"	"0"
+		"stun_health"	"60"
+		"stun_duration"	"0.3"
+		
+		"animation_idle"	"idle"
+		"animation_walk"	"walk"
+		"animation_walk_playbackrate"	"1.0"
+		"animation_run"		"run"
+		"animation_run_playbackrate"	"1.5"
+		"animation_attack"	"attack"
+		"animation_attack_playbackrate"	"2.0"
+		"animation_stun"	"flinch"
+		"animation_stun_playbackrate"	"1.0"
+
+		"decap_ragdoll_on_kill"		"1"
+		
+		"sound_idle_cooldown_min"	"6.0"
+		"sound_idle_cooldown_max"	"8.0"
+		"sound_idle_volume"	"1.0"
+		
+		"sound_alertofenemy_cooldown_min"	"4.0"
+		"sound_alertofenemy_cooldown_max"	"5.0"
+		"sound_alertofenemy_volume"	"1"
+		
+		"sound_chasingenemy_cooldown_min"	"5.0"
+		"sound_chasingenemy_cooldown_max"	"6.0"
+		"sound_chasingenemy_volume"	"1.0"
+		
+		"mod_precache"
+		{
+			"1"	"models/vince_sf/drtrager/drtrager.mdl"
+		}
+		
+		"mod_download"
+		{
+			"1"	"models/vince_sf/drtrager/drtrager"
+		}
+		
+		"mat_download"
+		{
+			"1"	"materials/models/vince_sf/drtrager/Eye_D"
+			"2"	"materials/models/vince_sf/drtrager/ID_1_D"
+			"3"	"materials/models/vince_sf/drtrager/ID_2_D"
+			"4"	"materials/models/vince_sf/drtrager/ID_3_D"
+			"5"	"materials/models/vince_sf/drtrager/hair_D"
+			"6"	"materials/models/vince_sf/drtrager/scisor_D"
+		}
+		
+		"download"
+		{
+			"1"	"materials/models/vince_sf/drtrager/Eye_S.vtf"
+			"2"	"materials/models/vince_sf/drtrager/ID_1_N.vtf"
+			"3"	"materials/models/vince_sf/drtrager/ID_2_N.vtf"
+			"4"	"materials/models/vince_sf/drtrager/ID_3_N.vtf"
+			"5"	"materials/models/vince_sf/drtrager/hair_N.vtf"
+			"6"	"materials/models/vince_sf/drtrager/scisor_N.vtf"
+		}
+		
+		"sound_spawn_all"
+		{
+			"1"	"slender/drtrager/trager_intro.mp3"
+		}
+
+		"sound_scare_player"
+		{
+			"1"	"slender/drtrager/trager_scare.mp3"
+		}
+		
+		"sound_chase_music"
+		{
+			"1"	"slender/drtrager/trager_newchase.wav"
+		}
+
+		"sound_alert_music"
+		{
+			"1"	"slender/drtrager/trager_search.wav"
+		}
+		
+		"sound_idle"
+		{
+			"1"	"slender/drtrager/trager_idle_01.mp3"
+			"2"	"slender/drtrager/trager_idle_02.mp3"
+			"3"	"slender/drtrager/trager_idle_03.mp3"
+			"4"	"slender/drtrager/trager_idle_04.mp3"
+		}
+		
+		"sound_alertofenemy"
+		{
+			"1"	"slender/drtrager/trager_alert_01.mp3"
+			"2"	"slender/drtrager/trager_alert_02.mp3"
+			"3"	"slender/drtrager/trager_alert_03.mp3"
+			"4"	"slender/drtrager/trager_alert_04.mp3"
+		}
+		
+		"sound_chasingenemy"
+		{
+			"1"	"slender/drtrager/trager_sight_01.mp3"
+			"2"	"slender/drtrager/trager_sight_02.mp3"
+			"3"	"slender/drtrager/trager_sight_03.mp3"
+			"4"	"slender/drtrager/trager_sight_04.mp3"
+			"5"	"slender/drtrager/trager_sight_05.mp3"
+		}
+		
+		"sound_hitenemy"
+		{
+			"1"	"slender/drtrager/trager_hit_01.mp3"
+			"2"	"slender/drtrager/trager_hit_02.mp3"
+			"3"	"slender/drtrager/trager_hit_03.mp3"
+		}
+		
+		"sound_stun"
+		{
+		}
+		
+		"sound_missenemy"
+		{
+		}
+	}

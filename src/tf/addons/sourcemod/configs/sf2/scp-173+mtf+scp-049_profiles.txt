@@ -1,0 +1,432 @@
+	"scp-173"
+	{
+		"name"	"SCP-173"
+		"type"	"1"
+		"speed"	"45.0"
+		"model"	"models/new173/new173.mdl"
+		"model_scale"	"1.0"
+		"eye_pos"	"0 0 80"
+		"eye_ang_offset"	"0 180 0"
+		"mins"	"-16 -16 0"
+		"maxs"	"16 16 64"
+
+		"enable_random_selection" "0"
+		
+		"copy"	"1"
+		"copy_max"	"1"
+		
+		"static_shake"	"1"
+		"static_on_look"	"0"
+		"static_on_look_gracetime"	"5.0"
+		"static_on_radius"	"0"
+		"static_rate"	"0.9"
+		"static_rate_decay"	"0.4"
+		"static_radius"	"400.0"
+		"scare_radius"	"350.0"
+		"scare_cooldown"	"2.0"
+		"kill_radius"	"100.0"
+		"kill_cooldown"	"1.0"
+		"teleport_range_min"	"250.0"
+		"teleport_range_max"	"1500.0"
+		"anger_start"	"1.0"
+		"anger_page_time_diff"	"99999.0"
+		"anger_page_add"	"0.00"
+		
+		"appear_chance_threshold"	"0.01"
+		"appear_chance_min"	"0.0"
+		"appear_chance_max"	"1.0"
+		
+		"think_time_min"	"8.0"
+		"think_time_max"	"12.0"
+		
+		"death_cam"	"0"
+		"death_cam_play_scare_sound"	"1"
+		
+		"blink_look_rate_multiply"	"1.0"
+		"blink_static_rate_multiply"	"1.0"
+
+		"companions"
+		{
+			"1"	"cb_mtf"
+			"2"	"cb_scp049"
+		}
+		
+		"sound_scare_player"
+		{
+			"1"	"slender/scp-173/scare1.wav"
+			"2"	"slender/scp-173/scare2.wav"
+			"3"	"slender/scp-173/scare3.wav"
+			"4"	"slender/scp-173/scare4.wav"
+		}
+		
+		"sound_player_death"
+		{
+			"1"	"slender/scp-173/firstpersonsnap.mp3"
+			"2"	"slender/scp-173/firstpersonsnap2.mp3"
+			"3"	"slender/scp-173/firstpersonsnap3.mp3"
+		}
+		
+		"sound_player_death_all"
+		{
+			"1"	"slender/newnecksnap.wav"
+		}
+		
+		"sound_static"
+		{
+			"1"	"slender/static.wav"
+		}
+		
+		"sound_move"
+		{
+			"1"	"physics/concrete/rock_scrape_rough_loop1.wav"
+		}
+		
+		"mod_precache"
+		{
+			"1"	"models/new173/new173.mdl"
+		}
+		
+		"mod_download"
+		{
+			"1"	"models/new173/new173"
+		}
+		
+		"mat_download"
+		{
+			"1"	"materials/models/new173/new173_texture"
+		}
+	}
+
+	"cb_mtf"
+	{
+		"name"	"Containment Breach - MTF Team"
+		"type"	"2"
+		"speed"	"300.0"
+		"acceleration"	"2500.0"
+		"speed_max"	"350.0"
+		"walkspeed"	"100.0"
+		"walkspeed_max"	"150.0"
+		"model"	"models/mtf_guard/mtf_guard.mdl"
+		"model_scale"	"1.25"
+		"eye_pos"	"0 0 72"
+		"mins"	"-16 -16 0"
+		"maxs"	"16 16 64"
+		"turnrate"	"600.0"
+		"fov"	"180"
+
+		"enable_random_selection" "0"
+		
+		"copy"	"1"
+		"copy_max"	"1"
+		
+		"teleport_time_min"	"10.0"
+		"teleport_time_max"	"10.0"
+		"teleport_range_min"	"400.0"
+		"teleport_range_max"	"1400.0"
+		"teleport_target_rest_period"	"5.0"
+		"teleport_target_persistency_period"	"5.0"
+		"teleport_target_stress_min"	"0.5"
+		"teleport_target_stress_max"	"1.0"
+		"teleport_type"	"2"
+		
+		"static_on_look"	"0"
+		"static_on_radius"	"1"
+		"static_rate"	"0.8"
+		"static_rate_decay"	"0.4"
+		"static_radius"	"100.0"
+		"scare_radius"	"350.0"
+		"scare_cooldown"	"2.0"
+		
+		"anger_start"	"1.0"
+		"anger_page_time_diff"	"99999.0"
+		"anger_page_add"	"0.0"
+		
+		"appear_chance_threshold"	"0.15"
+		"appear_chance_min"	"0.0"
+		"appear_chance_max"	"1.0"
+		
+		"sound_idle_cooldown_min"	"4.0"
+		"sound_idle_cooldown_max"	"12.0"
+		"sound_idle_volume"	"1"
+		
+		"sound_alertofenemy_cooldown_min"	"3.0"
+		"sound_alertofenemy_cooldown_max"	"3.7"
+		"sound_alertofenemy_volume"	"1"
+		
+		"search_range"	"500.0"
+		"search_alert_gracetime"	"0.00"
+		"search_chase_duration"	"1"
+		
+		"idle_lifetime"	"6.0"
+
+		"jump_speed"	"512.0"
+		"jump_cooldown"	"2.0"
+		"airspeed"	"350.0"
+		
+		"attack_delay"	"0.020"
+		"attack_range"	"750.0"
+		"attack_damage"	"5.0"
+		"attack_damagetype"	"3"
+		"attack_punchvel"	"0 0 1"
+		"attack_endafter" "0.020"
+		"attack_spread"	"45"
+		
+		"stun_enabled"	"1"
+		"stun_health"	"100"
+		"stun_duration"	"2.5"
+		
+		"animation_idle"	"idle_ar2_aim"
+		"animation_walk"	"walkAlertAim_AR2_ALL1"
+		"animation_walk_playbackrate"	"0.50"
+		"animation_run"		"run_alert_aiming_ar2_all"
+		"animation_run_playbackrate"	"1"
+		"animation_attack"	"shoot_ar2"
+		"animation_attack_playbackrate"	"1"
+		"animation_stun"	"preSkewer"
+		"animation_stun_playbackrate"	"0.10"
+		
+		"mod_precache"
+		{
+			"1"	"models/mtf_guard/mtf_guard.mdl"
+			"2"	"models/mtf_guard/mtf_p90.mdl"
+		}
+		
+		"mod_download"
+		{
+			"1"	"models/mtf_guard/mtf_guard"
+			"2"	"models/mtf_guard/mtf_p90"
+		}
+		
+		"mat_download"
+		{
+			"1"	"materials/models/mtf_guard/helmet"
+			"2"	"materials/models/mtf_guard/mtf_body"
+		}
+		
+		"download"
+		{
+			"1"	"materials/models/mtf_guard/body_bump.vtf"
+			"2"	"materials/models/mtf_guard/helmet_bump.vtf"
+		}
+	
+		//"sound_spawn_all"
+		//{
+		//	"1"	"slender/gunner/intro.mp3"
+		//}
+		
+		"sound_scare_player"
+		{
+			"1"	"slender/scare1.wav"
+		}
+
+		"sound_alert_music"
+		{
+			"1"	"slender/mtf/themealert.wav"
+		}
+		
+		"sound_chase_visible"
+		{
+			"1"	"slender/gunner/themeloop.wav"
+		}
+		
+		"sound_stun"
+		{
+			"1"	"slender/gunner/stun.mp3"
+		}
+		
+		"sound_idle"
+		{
+			"1"	"slender/gunner/idle1.mp3"
+			"2"	"slender/gunner/idle2.mp3"
+			"3"	"slender/gunner/idle3.mp3"
+			"4"	"slender/gunner/idle4.mp3"
+		}
+		
+		"sound_alertofenemy"
+		{
+			"1"	"slender/gunner/alert1.mp3"
+			"2"	"slender/gunner/alert2.mp3"
+			"3"	"slender/gunner/alert3.mp3"
+		}
+		
+		"sound_attackenemy"
+		{
+			"1"	"slender/gunner/gunshot.mp3"
+		}
+	}
+
+	"cb_scp049"
+	{
+		"name"	"Containment Breach - SCP-049"
+		"type"	"2"
+		"speed"	"500.0"
+		"acceleration"	"6000.0"
+		"speed_max"	"600.0"
+		"walkspeed"	"100.0"
+		"walkspeed_max"	"150.0"
+		"model"	"models/vinrax/player/scp049_player.mdl"
+		"model_scale"	"1.5"
+		"eye_pos"	"0 0 72"
+		"mins"	"-90 -90 0"
+		"maxs"	"90 90 100"
+		"turnrate"	"600.0"
+		"fov"	"180"
+		"skin"	"0"
+
+		"enable_random_selection" "0"
+		
+		"copy" "0"
+		
+		"teleport_time_min"	"10.0"
+		"teleport_time_max"	"10.0"
+		"teleport_range_min"	"500.0"
+		"teleport_range_max"	"1500.0"
+		"teleport_target_rest_period"	"5.0"
+		"teleport_target_persistency_period"	"5.0"
+		"teleport_target_stress_min"	"0.5"
+		"teleport_target_stress_max"	"1.0"
+		"teleport_type"	"2"
+		
+		"static_on_look"	"1"
+		"static_on_look_gracetime"	"8.0"
+		"static_on_radius"	"1"
+		"static_rate"	"0.5"
+		"static_rate_decay"	"0.5"
+		"static_radius"	"100.0"
+		"kill_radius"	"75.0"
+		"scare_radius"	"400.0"
+		"scare_cooldown"	"6.0"
+		
+		"anger_start"	"1.0"
+		"anger_page_time_diff"	"99999.0"
+		"anger_page_add"	"0.0"
+		
+		"appear_chance_threshold"	"0.30"
+		"appear_chance_min"	"0.0"
+		"appear_chance_max"	"1.0"
+		
+		"search_range"	"500.0"
+		"search_alert_gracetime"	"0.0"
+
+		"search_chase_duration"	"1"
+		"search_chase_persistency_time_init"	"1.0"
+		"search_chase_persistency_time_add_newtarget"	"0.0"
+		"search_chase_persistency_time_add_visible_min"	"0.0"
+		"search_chase_persistency_time_add_visible_max"	"1.0"
+		"search_chase_persistency_time_add_attack"	"1.0"
+		
+		"wake_radius"	"500.0"
+
+		"jump_speed"	"500.0"
+		"jump_cooldown"	"2.0"
+		"airspeed"	"500.0"
+		
+		"wander_move"	"0"
+		
+		"idle_lifetime"	"10.0"
+		
+		"animation_idle"	"lookoutidle"
+		"animation_walk"	"walk_all"
+		"animation_walk_playbackrate"	"1.0"
+		"animation_run"		"walk_all"
+		"animation_run_playbackrate"	"2.0"
+		"animation_attack"	"throw1"
+		"animation_attack_playbackrate"	"1.0"
+		"animation_stun"	"cower"
+		"animation_stun_playbackrate"	"1.0"
+		
+		"sound_idle_cooldown_min"	"0.0"
+		"sound_idle_cooldown_max"	"1.0"
+		"sound_idle_volume"	"1"
+
+		"sound_chasingenemy_cooldown_min"	"5.0"
+		"sound_chasingenemy_cooldown_max"	"6.0"
+		"sound_chasingenemy_volume"	"1"
+
+		"sound_alertofenemy_cooldown_min"	"6.0"
+		"sound_alertofenemy_cooldown_max"	"8.0"
+		"sound_alertofenemy_volume"	"1"
+		
+		"mod_precache"
+		{
+			"1"	"models/vinrax/player/scp049_player.mdl"
+		}
+		
+		"mod_download"
+		{
+			"1"	"models/vinrax/player/scp049_player"
+		}
+		
+		"mat_download"
+		{
+			"1"	"materials/models/vinrax/scp/scp-049_clothing_diffuse4"
+			"2"	"materials/models/vinrax/scp/scp-049_mask_diffuse5"
+		}
+		
+		"download"
+		{
+		}
+
+		"attributes"
+		{
+
+			"reduced speed on look"
+			{
+				"value"	"0.25"
+			}
+
+			"reduced walk speed on look"
+			{
+				"value"	"0.25"
+			}
+		}
+		
+		//"sound_spawn_all"
+		//{
+		//	"1"	"slender/scp049/intro1.wav"
+		//	"2"	"slender/scp049/intro2.wav"
+		//	"3"	"slender/scp049/intro3.wav"
+		//	"4"	"slender/scp049/intro4.wav"
+		//	"5"	"slender/scp049/intro5.wav"
+		//	"6"	"slender/scp049/intro6.wav"
+		//}
+
+		"sound_scare_player"
+		{
+			"1"	"misc/halloween/gotohell.wav"
+		}
+		
+		"sound_chase_visible"
+		{
+			"1"	"slender/scp049/chase_variant1.wav"
+		}
+		
+		"sound_alertofenemy"
+		{
+			"1"	"slender/scp049/alert10.wav"
+			"2"	"slender/scp049/alert11.wav"
+			"3"	"slender/scp049/alert12.wav"
+			"4"	"slender/scp049/alert13.wav"
+		}
+		
+		"sound_chasingenemy"
+		{
+			"1"	"slender/scp049/alert1.wav"
+			"2"	"slender/scp049/alert2.wav"
+			"3"	"slender/scp049/alert3.wav"
+			"4"	"slender/scp049/alert4.wav"
+			"5"	"slender/scp049/alert5.wav"
+			"6"	"slender/scp049/alert6.wav"
+			"7"	"slender/scp049/alert7.wav"
+			"8"	"slender/scp049/alert8.wav"
+			"9"	"slender/scp049/alert9.wav"
+		}
+
+		"sound_player_death"
+		{
+			"1"	"slender/scp049/kill1.wav"
+			"2"	"slender/scp049/kill2.wav"
+			"3"	"slender/scp049/kill3.wav"
+			"4"	"slender/scp049/kill4.wav"
+		}
+	}

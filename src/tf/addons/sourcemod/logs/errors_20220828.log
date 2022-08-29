@@ -1,0 +1,3 @@
+L 08/28/2022 - 20:00:46: SourceMod error session started
+L 08/28/2022 - 20:00:46: Info (map "slender_backrooms_r1a") (file "f:\tf2 server\servers\sf2 modified\server\tf\addons\sourcemod\logs\errors_20220828.log")
+L 08/28/2022 - 20:00:46: [tf2attributes.smx] Could not initialize call to CEconItem::SetCustomName

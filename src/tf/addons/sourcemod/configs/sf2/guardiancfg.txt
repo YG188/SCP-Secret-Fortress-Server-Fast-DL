@@ -1,0 +1,193 @@
+	"guardian"
+	{
+		"name"	"Guardian"
+		"type"	"2"
+		"speed"	"340.0"
+		"acceleration"	"3000.0"
+		"speed_max"	"425.0"
+		"walkspeed"	"60.0"
+		"walkspeed_max"	"120.0"
+		"model"	"models/doom/guardian/guardian.mdl"
+		"model_scale"	"0.8"
+		"eye_pos"	"0 0 72"
+		"mins"	"-90 -90 0"
+		"maxs"	"90 90 100"
+		"turnrate"	"400.0"
+		"fov"	"400"
+		"skin"	"0"
+		
+		"copy" "1"
+		"copy_max"	"3"
+		
+		"teleport_time_min"	"3.0"
+		"teleport_time_max"	"6.0"
+		"teleport_range_min"	"350.0"
+		"teleport_range_max"	"1100.0"
+		"teleport_target_rest_period"	"5.0"
+		"teleport_target_persistency_period"	"10.0"
+		"teleport_target_stress_min"	"0.8"
+		"teleport_target_stress_max"	"1.0"
+		"teleport_type"	"2"
+
+		"attack_props"	"0"
+		"attack_damageforce"	"60"
+		"attack_damage_vs_props"	"100"
+		
+		"static_on_look"	"0"
+		"static_on_radius"	"0"
+		"static_rate"	"0.8"
+		"static_rate_decay"	"0.4"
+		"static_radius"	"400.0"
+		"kill_radius"	"25.0"
+		"scare_radius"	"400.0"
+		"scare_cooldown"	"2.0"
+		
+		"anger_start"	"0.80"
+		"anger_page_time_diff"	"99999.0"
+		"anger_page_add"	"0.05"
+		
+		"appear_chance_threshold"	"0.30"
+		"appear_chance_min"	"0.0"
+		"appear_chance_max"	"1.0"
+		
+		"death_cam"	"0"
+		
+		"blink_look_rate_multiply"	"0.66"
+		"blink_static_rate_multiply"	"0.85"
+		
+		"search_range"	"1000.0"
+		"search_alert_gracetime"	"0.0"
+
+		"search_chase_duration"	"8"
+		"search_chase_persistency_time_init"	"2.0"
+		"search_chase_persistency_time_add_newtarget"	"0.0"
+		"search_chase_persistency_time_add_visible_min"	"0.25"
+		"search_chase_persistency_time_add_visible_max"	"0.25"
+		"search_chase_persistency_time_add_attack"	"1.0"
+		
+		"wake_radius"	"600.0"
+
+		"jump_speed"	"1024.0"
+		"airspeed"	"512.0"
+		
+		"wander_move"	"0"
+		
+		"idle_lifetime"	"7.0"
+		
+		"attack_delay"	"0.30"
+		"attack_range"	"200.0"
+		"attack_begin_range"	"110"
+		"attack_damage"	"30.0"
+		"attack_damagetype"	"1048576"
+		"attack_punchvel"	"60 60 1"
+		"attack_endafter" "1.25"
+		
+		"stun_enabled"	"0"
+		"stun_health"	"150"
+		"stun_duration"	"2.5"
+		
+		"animation_idle"	"idle1"
+		"animation_walk"	"walk1"
+		"animation_walk_playbackrate"	"0.7"
+		"animation_run"		"run"
+		"animation_run_playbackrate"	"0.7"
+		"animation_attack"	"attack3"
+		"animation_attack_playbackrate"	"1.0"
+		"animation_stun"	"range_attack1"
+		"animation_stun_playbackrate"	"1"
+		
+		"sound_idle_cooldown_min"	"4.0"
+		"sound_idle_cooldown_max"	"5.0"
+		"sound_idle_volume"	"1"
+
+		"sound_chasingenemy_cooldown_min"	"4.0"
+		"sound_chasingenemy_cooldown_max"	"5.0"
+		"sound_chasingenemy_volume"	"1"
+
+		"sound_alertofenemy_cooldown_min"	"4.0"
+		"sound_alertofenemy_cooldown_max"	"5.0"
+		"sound_alertofenemy_volume"	"1"
+		
+		"mod_precache"
+		{
+			"1"	"models/doom/guardian/guardian.mdl"
+		}
+		
+		"mod_download"
+		{
+			"1"	"models/doom/guardian/guardian"
+		}
+		
+		"mat_download"
+		{
+			"1"	"materials/models/doom/guardian/guardian"
+			"2"	"materials/models/doom/guardian/guardian_s"
+			"3"	"materials/models/doom/guardian/tongue"
+		}
+		
+		"download"
+		{
+			"1"	"materials/models/doom/guardian/guardian_local.vtf"
+		}
+		
+		"sound_spawn_all"
+		{
+			"1"	"slender/guardian/guardian_death.wav"
+		}
+
+		"sound_scare_player"
+		{
+			"1"	"misc/halloween/gotohell.wav"
+		}
+
+		"sound_alert_music"
+		{
+			"1"	"slender/guardian/guardian_search.wav"
+		}
+		
+		"sound_chase_music"
+		{
+			"1"	"slender/rake/ohgoditschasingmehelp.wav"
+		}
+		
+		"sound_idle"
+		{
+			"1"	"slender/guardian/chatter1.wav"
+			"2"	"slender/guardian/chatter2.wav"
+			"3"	"slender/guardian/chatter3.wav"
+		}
+		
+		"sound_alertofenemy"
+		{
+			"1"	"slender/guardian/sight1_1.wav"
+			"2"	"slender/guardian/sight2_1.wav"
+			"3"	"slender/guardian/sight3_1.wav"
+		}
+		
+		"sound_chasingenemy"
+		{
+			"1"	"slender/guardian/chatter_combat1.wav"
+			"2"	"slender/guardian/chatter_combat2.wav"
+			"3"	"slender/guardian/chatter_combat3.wav"
+		}
+
+		"sound_move"
+		{
+			"1"	"slender/guardian/foot/step1.mp3"
+			"2"	"slender/guardian/foot/step2.mp3"
+			"3"	"slender/guardian/foot/step3.mp3"
+			"4"	"slender/guardian/foot/step4.mp3"
+		}
+
+		"sound_hitenemy"
+		{
+			"1"	"slender/guardian/impact.wav"
+		}
+		
+		"sound_missenemy"
+		{
+			"1"	"slender/guardian/pain1.wav"
+			"2"	"slender/guardian/pain2.wav"
+			"3"	"slender/guardian/pain3.wav"
+		}
+	}

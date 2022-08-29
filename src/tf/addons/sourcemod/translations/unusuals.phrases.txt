@@ -1,0 +1,687 @@
+"Phrases"
+{
+	"Cosmetic_Eff4"
+	{
+		"en"		"Community Sparkle"
+	}
+	"Cosmetic_Eff5"
+	{
+		"en"		"Holy Glow"
+	}
+	"Cosmetic_Eff6"
+	{
+		"en"		"Green Confetti"
+	}
+	"Cosmetic_Eff7"
+	{
+		"en"		"Purple Confetti"
+	}
+	"Cosmetic_Eff8"
+	{
+		"en"		"Haunted Ghosts"
+	}
+	"Cosmetic_Eff9"
+	{
+		"en"		"Green Energy"
+	}
+	"Cosmetic_Eff10"
+	{
+		"en"		"Purple Energy"
+	}
+	"Cosmetic_Eff11"
+	{
+		"en"		"Circling TF Logo"
+	}
+	"Cosmetic_Eff12"
+	{
+		"en"		"Massed Flies"
+	}
+	"Cosmetic_Eff13"
+	{
+		"en"		"Burning Flames"
+	}
+	"Cosmetic_Eff14"
+	{
+		"en"		"Scorching Flames"
+	}
+	"Cosmetic_Eff15"
+	{
+		"en"		"Searing Plasma"
+	}
+	"Cosmetic_Eff16"
+	{
+		"en"		"Vivid Plasma"
+	}
+	"Cosmetic_Eff17"
+	{
+		"en"		"Sunbeams"
+	}
+	"Cosmetic_Eff18"
+	{
+		"en"		"Circling Peace Sign"
+	}
+	"Cosmetic_Eff19"
+	{
+		"en"		"Circling Heart"
+	}
+	"Cosmetic_Eff20"
+	{
+		"en"		"Map Stamps"
+	}
+	"Cosmetic_Eff28"
+	{
+		"en"		"Genteel Smoke"
+	}
+	"Cosmetic_Eff29"
+	{
+		"en"		"Stormy Storm"
+	}
+	"Cosmetic_Eff30"
+	{
+		"en"		"Blizzardy Storm"
+	}
+	"Cosmetic_Eff31"
+	{
+		"en"		"Nuts n' Bolts"
+	}
+	"Cosmetic_Eff32"
+	{
+		"en"		"Orbiting Planets"
+	}
+	"Cosmetic_Eff33"
+	{
+		"en"		"Orbiting Fire"
+	}
+	"Cosmetic_Eff34"
+	{
+		"en"		"Bubbling"
+	}
+	"Cosmetic_Eff35"
+	{
+		"en"		"Smoking"
+	}
+	"Cosmetic_Eff36"
+	{
+		"en"		"Steaming"
+	}
+	"Cosmetic_Eff37"
+	{
+		"en"		"Flaming Lantern"
+	}
+	"Cosmetic_Eff38"
+	{
+		"en"		"Cloudy Moon"
+	}
+	"Cosmetic_Eff39"
+	{
+		"en"		"Cauldron Bubbles"
+	}
+	"Cosmetic_Eff40"
+	{
+		"en"		"Eerie Orbiting Fire"
+	}
+	"Cosmetic_Eff43"
+	{
+		"en"		"Knifestorm"
+	}
+	"Cosmetic_Eff44"
+	{
+		"en"		"Misty Skull"
+	}
+	"Cosmetic_Eff45"
+	{
+		"en"		"Harvest Moon"
+	}
+	"Cosmetic_Eff46"
+	{
+		"en"		"It's A Secret To Everybody"
+	}
+	"Cosmetic_Eff47"
+	{
+		"en"		"Stormy 13th Hour"
+	}
+	"Cosmetic_Eff56"
+	{
+		"en"		"Kill-a-Watt"
+	}
+	"Cosmetic_Eff57"
+	{
+		"en"		"Terror-Watt"
+	}
+	"Cosmetic_Eff58"
+	{
+		"en"		"Cloud 9"
+	}
+	"Cosmetic_Eff59"
+	{
+		"en"		"Aces High"
+	}
+	"Cosmetic_Eff60"
+	{
+		"en"		"Dead Presidents"
+	}
+	"Cosmetic_Eff61"
+	{
+		"en"		"Miami Nights"
+	}
+	"Cosmetic_Eff62"
+	{
+		"en"		"Disco Beat Down"
+	}
+	"Cosmetic_Eff63"
+	{
+		"en"		"Phosphorous"
+	}
+	"Cosmetic_Eff64"
+	{
+		"en"		"Sulphurous"
+	}
+	"Cosmetic_Eff65"
+	{
+		"en"		"Memory Leak"
+	}
+	"Cosmetic_Eff66"
+	{
+		"en"		"Overclocked"
+	}
+	"Cosmetic_Eff67"
+	{
+		"en"		"Electrostatic"
+	}
+	"Cosmetic_Eff68"
+	{
+		"en"		"Power Surge"
+	}
+	"Cosmetic_Eff69"
+	{
+		"en"		"Anti-Freeze"
+	}
+	"Cosmetic_Eff70"
+	{
+		"en"		"Time Warp"
+	}
+	"Cosmetic_Eff71"
+	{
+		"en"		"Green Black Hole"
+	}
+	"Cosmetic_Eff72"
+	{
+		"en"		"Roboactive"
+	}
+	"Cosmetic_Eff73"
+	{
+		"en"		"Arcana"
+	}
+	"Cosmetic_Eff74"
+	{
+		"en"		"Spellbound"
+	}
+	"Cosmetic_Eff75"
+	{
+		"en"		"Chiroptera Venenata"
+	}
+	"Cosmetic_Eff76"
+	{
+		"en"		"Poisoned Shadows"
+	}
+	"Cosmetic_Eff77"
+	{
+		"en"		"Something Burning This Way Comes"
+	}
+	"Cosmetic_Eff78"
+	{
+		"en"		"Hellfire"
+	}
+	"Cosmetic_Eff79"
+	{
+		"en"		"Darkblaze"
+	}
+	"Cosmetic_Eff80"
+	{
+		"en"		"Demonflame"
+	}
+	"Cosmetic_Eff81"
+	{
+		"en"		"Bonzo The All-Gnawing"
+	}
+	"Cosmetic_Eff82"
+	{
+		"en"		"Amaranthine"
+	}
+	"Cosmetic_Eff83"
+	{
+		"en"		"Stare From Beyond"
+	}
+	"Cosmetic_Eff84"
+	{
+		"en"		"The Ooze"
+	}
+	"Cosmetic_Eff85"
+	{
+		"en"		"Ghastly Ghosts Jr"
+	}
+	"Cosmetic_Eff86"
+	{
+		"en"		"Haunted Phantasm Jr"
+	}
+	"Cosmetic_Eff87"
+	{
+		"en"		"Frostbite"
+	}
+	"Cosmetic_Eff88"
+	{
+		"en"		"Molten Mallard"
+	}
+	"Cosmetic_Eff89"
+	{
+		"en"		"Morning Glory"
+	}
+	"Cosmetic_Eff90"
+	{
+		"en"		"Death at Dusk"
+	}
+	"Cosmetic_Eff91"
+	{
+		"en"		"Abduction"
+	}
+	"Cosmetic_Eff92"
+	{
+		"en"		"Atomic"
+	}
+	"Cosmetic_Eff93"
+	{
+		"en"		"Subatomic"
+	}
+	"Cosmetic_Eff94"
+	{
+		"en"		"Electric Hat Protector"
+	}
+	"Cosmetic_Eff95"
+	{
+		"en"		"Magnetic Hat Protector"
+	}
+	"Cosmetic_Eff96"
+	{
+		"en"		"Voltaic Hat Protector"
+	}
+	"Cosmetic_Eff97"
+	{
+		"en"		"Galactic Codex"
+	}
+	"Cosmetic_Eff98"
+	{
+		"en"		"Ancient Codex"
+	}
+	"Cosmetic_Eff99"
+	{
+		"en"		"Nebula"
+	}
+	"Cosmetic_Eff100"
+	{
+		"en"		"Death by Disco"
+	}
+	"Cosmetic_Eff101"
+	{
+		"en"		"It's a mystery to everyone"
+	}
+	"Cosmetic_Eff102"
+	{
+		"en"		"It's a puzzle to me"
+	}
+	"Cosmetic_Eff103"
+	{
+		"en"		"Ether Trail"
+	}
+	"Cosmetic_Eff104"
+	{
+		"en"		"Nether Trail"
+	}
+	"Cosmetic_Eff105"
+	{
+		"en"		"Ancient Eldritch"
+	}
+	"Cosmetic_Eff106"
+	{
+		"en"		"Eldritch Flame"
+	}
+	"Cosmetic_Eff107"
+	{
+		"en"		"Neutron Star"
+	}
+	"Cosmetic_Eff108"
+	{
+		"en"		"Tesla Coil"
+	}
+	"Cosmetic_Eff109"
+	{
+		"en"		"Starstorm Insomnia"
+	}
+	"Cosmetic_Eff110"
+	{
+		"en"		"Starstorm Slumber"
+	}
+	"Cosmetic_Eff111"
+	{
+		"en"		"Brain Drain"
+	}
+	"Cosmetic_Eff112"
+	{
+		"en"		"Open Mind"
+	}
+	"Cosmetic_Eff113"
+	{
+		"en"		"Head of Steam"
+	}
+	"Cosmetic_Eff114"
+	{
+		"en"		"Galactic Gateway"
+	}
+	"Cosmetic_Eff115"
+	{
+		"en"		"The Eldritch Opening"
+	}
+	"Cosmetic_Eff116"
+	{
+		"en"		"The Dark Doorway"
+	}
+	"Cosmetic_Eff117"
+	{
+		"en"		"Ring of Fire"
+	}
+	"Cosmetic_Eff118"
+	{
+		"en"		"Vicious Circle"
+	}
+	"Cosmetic_Eff119"
+	{
+		"en"		"White Lightning"
+	}
+	"Cosmetic_Eff120"
+	{
+		"en"		"Omniscient Orb"
+	}
+	"Cosmetic_Eff121"
+	{
+		"en"		"Clairvoyance"
+	}
+	"Cosmetic_Eff122"
+	{
+		"en"		"Fifth Dimension"
+	}
+	"Cosmetic_Eff123"
+	{
+		"en"		"Vicious Vortex"
+	}
+	"Cosmetic_Eff124"
+	{
+		"en"		"Menacing Miasma"
+	}
+	"Cosmetic_Eff125"
+	{
+		"en"		"Abyssal Aura"
+	}
+	"Cosmetic_Eff126"
+	{
+		"en"		"Wicked Wood"
+	}
+	"Cosmetic_Eff127"
+	{
+		"en"		"Ghastly Grove"
+	}
+	"Cosmetic_Eff128"
+	{
+		"en"		"Mystical Medley"
+	}
+	"Cosmetic_Eff129"
+	{
+		"en"		"Ethereal Essence"
+	}
+	"Cosmetic_Eff130"
+	{
+		"en"		"Twisted Radiance"
+	}
+	"Cosmetic_Eff131"
+	{
+		"en"		"Violet Vortex"
+	}
+	"Cosmetic_Eff132"
+	{
+		"en"		"Verdant Vortex"
+	}
+	"Cosmetic_Eff133"
+	{
+		"en"		"Valiant Vortex"
+	}
+	"Cosmetic_Eff134"
+	{
+		"en"		"Sparkling Lights"
+	}
+	"Cosmetic_Eff135"
+	{
+		"en"		"Frozen Icefall"
+	}
+	"Cosmetic_Eff136"
+	{
+		"en"		"Fragmented Gluons"
+	}
+	"Cosmetic_Eff137"
+	{
+		"en"		"Fragmented Quarks"
+	}
+	"Cosmetic_Eff138"
+	{
+		"en"		"Fragmented Photons"
+	}
+	"Cosmetic_Eff139"
+	{
+		"en"		"Defragmenting Reality"
+	}
+	"Cosmetic_Eff141"
+	{
+		"en"		"Fragmenting Reality"
+	}
+	"Cosmetic_Eff142"
+	{
+		"en"		"Refragmenting Reality"
+	}
+	"Cosmetic_Eff143"
+	{
+		"en"		"Snowfallen"
+	}
+	"Cosmetic_Eff144"
+	{
+		"en"		"Snowblinded"
+	}
+	"Cosmetic_Eff145"
+	{
+		"en"		"Pyroland Daydream"
+	}
+	"Cosmetic_Eff156"
+	{
+		"en"		"Green Giggler"
+	}
+	"Cosmetic_Eff157"
+	{
+		"en"		"Laugh-O-Lantern"
+	}
+	"Cosmetic_Eff158"
+	{
+		"en"		"Plum Prankster"
+	}
+	"Cosmetic_Eff159"
+	{
+		"en"		"Pyroland Nightmare"
+	}
+	"Cosmetic_Eff160"
+	{
+		"en"		"Gravelly Ghoul"
+	}
+	"Cosmetic_Eff161"
+	{
+		"en"		"Vexed Volcanics"
+	}
+	"Cosmetic_Eff162"
+	{
+		"en"		"Gourdian Angel"
+	}
+	"Cosmetic_Eff163"
+	{
+		"en"		"Pumpkin Party"
+	}
+	"Cosmetic_Eff164"
+	{
+		"en"		"Frozen Fractals"
+	}
+	"Cosmetic_Eff165"
+	{
+		"en"		"Lavender Landfall"
+	}
+	"Cosmetic_Eff166"
+	{
+		"en"		"Special Snowfall"
+	}
+	"Cosmetic_Eff167"
+	{
+		"en"		"Divine Desire"
+	}
+	"Cosmetic_Eff168"
+	{
+		"en"		"Distant Dream"
+	}
+	"Cosmetic_Eff169"
+	{
+		"en"		"Violent Wintertide"
+	}
+	"Cosmetic_Eff170"
+	{
+		"en"		"Blighted Snowstorm"
+	}
+	"Cosmetic_Eff171"
+	{
+		"en"		"Pale Nimbus"
+	}
+	"Cosmetic_Eff172"
+	{
+		"en"		"Genus Plasmos"
+	}
+	"Cosmetic_Eff173"
+	{
+		"en"		"Serenus Lumen"
+	}
+	"Cosmetic_Eff174"
+	{
+		"en"		"Ventum Maris"
+	}
+	"Cosmetic_Eff175"
+	{
+		"en"		"Mirthful Mistletoe"
+	}
+	"Cosmetic_Eff177"
+	{
+		"en"		"Resonation"
+	}
+	"Cosmetic_Eff178"
+	{
+		"en"		"Aggradation"
+	}
+	"Cosmetic_Eff179"
+	{
+		"en"		"Lucidation"
+	}
+	"Cosmetic_Eff180"
+	{
+		"en"		"Stunning"
+	}
+	"Cosmetic_Eff181"
+	{
+		"en"		"Ardentum Saturnalis"
+	}
+	"Cosmetic_Eff182"
+	{
+		"en"		"Fragrancium Elementalis"
+	}
+	"Cosmetic_Eff183"
+	{
+		"en"		"Reverium Irregularis"
+	}
+	"Cosmetic_Eff185"
+	{
+		"en"		"Perennial Petals"
+	}
+	"Cosmetic_Eff186"
+	{
+		"en"		"Flavorsome Sunset"
+	}
+	"Cosmetic_Eff187"
+	{
+		"en"		"Raspberry Bloom"
+	}
+	"Cosmetic_Eff188"
+	{
+		"en"		"Iridescence"
+	}
+	"Cosmetic_Eff189"
+	{
+		"en"		"Tempered Thorns"
+	}
+	"Cosmetic_Eff190"
+	{
+		"en"		"Devilish Diablo"
+	}
+	"Cosmetic_Eff191"
+	{
+		"en"		"Severed Serration"
+	}
+	"Cosmetic_Eff192"
+	{
+		"en"		"Shrieking Shades"
+	}
+	"Cosmetic_Eff193"
+	{
+		"en"		"Restless Wraiths"
+	}
+	"Cosmetic_Eff194"
+	{
+		"en"		"Restless Wraiths"
+	}
+	"Cosmetic_Eff195"
+	{
+		"en"		"Infernal Wraith"
+	}
+	"Cosmetic_Eff196"
+	{
+		"en"		"Phantom Crown"
+	}
+	"Cosmetic_Eff197"
+	{
+		"en"		"Ancient Specter"
+	}
+	"Cosmetic_Eff198"
+	{
+		"en"		"Viridescent Peeper"
+	}
+	"Cosmetic_Eff199"
+	{
+		"en"		"Eyes of Molten"
+	}
+	"Cosmetic_Eff200"
+	{
+		"en"		"Ominous Stare"
+	}
+	"Cosmetic_Eff201"
+	{
+		"en"		"Pumpkin Moon"
+	}
+	"Cosmetic_Eff202"
+	{
+		"en"		"Frantic Spooker"
+	}
+	"Cosmetic_Eff203"
+	{
+		"en"		"Frightened Poltergeist"
+	}
+	"Cosmetic_Eff204"
+	{
+		"en"		"Energetic Haunter"
+	}
+}

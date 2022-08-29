@@ -1,0 +1,220 @@
+	"hellknight"
+	{
+		"name"	"Hell Knight"
+		"type"	"2"
+		"speed"	"260.0"
+		"acceleration"	"2000.0"
+		"speed_max"	"320.0"
+		"walkspeed"	"60.0"
+		"walkspeed_max"	"120.0"
+		"model"	"models/doom/hellknight.mdl"
+		"model_scale"	"1.0"
+		"eye_pos"	"0 0 72"
+		"mins"	"-90 -90 0"
+		"maxs"	"90 90 100"
+		"turnrate"	"400.0"
+		"fov"	"300"
+		"skin"	"0"
+		
+		"copy" "1"
+		"copy_max"	"1"
+		
+		"teleport_time_min"	"2.0"
+		"teleport_time_max"	"5.0"
+		"teleport_range_min"	"350.0"
+		"teleport_range_max"	"1500.0"
+		"teleport_target_rest_period"	"6.0"
+		"teleport_target_persistency_period"	"10.0"
+		"teleport_target_stress_min"	"0.8"
+		"teleport_target_stress_max"	"1.0"
+		"teleport_type"	"2"
+
+		"attack_props"	"0"
+		"attack_damageforce"	"12"
+		"attack_damage_vs_props"	"30"
+		
+		"static_on_look"	"0"
+		"static_on_radius"	"0"
+		"static_rate"	"0.8"
+		"static_rate_decay"	"0.4"
+		"static_radius"	"400.0"
+		"kill_radius"	"25.0"
+		"scare_radius"	"400.0"
+		"scare_cooldown"	"2.0"
+		
+		"anger_start"	"0.8"
+		"anger_page_time_diff"	"99999.0"
+		"anger_page_add"	"0.05"
+		
+		"appear_chance_threshold"	"0.33"
+		"appear_chance_min"	"0.0"
+		"appear_chance_max"	"1.0"
+		
+		"think_time_min"	"2.0"
+		"think_time_max"	"4.0"
+		
+		"death_cam"	"0"
+		
+		"blink_look_rate_multiply"	"0.66"
+		"blink_static_rate_multiply"	"0.85"
+		
+		"search_range"	"10000.0"
+		"search_alert_gracetime"	"0.0"
+
+		"search_chase_duration"	"8"
+		"search_chase_persistency_time_init"	"2.5"
+		"search_chase_persistency_time_add_newtarget"	"0.0"
+		"search_chase_persistency_time_add_visible_min"	"0.25"
+		"search_chase_persistency_time_add_visible_max"	"0.25"
+		"search_chase_persistency_time_add_attack"	"1.0"
+		
+		"wake_radius"	"300.0"
+
+		"jump_speed"	"800.0"
+		"airspeed"	"400.0"
+		
+		"wander_move"	"0"
+		
+		"idle_lifetime"	"6.0"
+		
+		"attack_delay"	"0.30"
+		"attack_range"	"210.0"
+		"attack_begin_range"	"110"
+		"attack_damage"	"60.0"
+		"attack_damagetype"	"1048576"
+		"attack_punchvel"	"60 60 1"
+		"attack_endafter" "1.25"
+		
+		"stun_enabled"	"1"
+		"stun_health"	"80"
+		"stun_duration"	"1.0"
+		
+		"animation_idle"	"stand"
+		"animation_walk"	"walk7"
+		"animation_walk_playbackrate"	"0.8"
+		"animation_run"		"walk7"
+		"animation_run_playbackrate"	"1.75"
+		"animation_attack"	"attack3"
+		"animation_attack_playbackrate"	"1.0"
+		"animation_stun"	"roar1"
+		"animation_stun_playbackrate"	"0.75"
+		
+		"sound_idle_cooldown_min"	"4.0"
+		"sound_idle_cooldown_max"	"5.0"
+		"sound_idle_volume"	"1"
+
+		"sound_chasingenemy_cooldown_min"	"4.0"
+		"sound_chasingenemy_cooldown_max"	"5.0"
+		"sound_chasingenemy_volume"	"1"
+
+		"sound_alertofenemy_cooldown_min"	"4.0"
+		"sound_alertofenemy_cooldown_max"	"5.0"
+		"sound_alertofenemy_volume"	"1"
+		
+		"mod_precache"
+		{
+			"1"	"models/doom/hellknight.mdl"
+		}
+		
+		"mod_download"
+		{
+			"1"	"models/doom/hellknight"
+		}
+		
+		"mat_download"
+		{
+			"1"	"materials/models/doom/hellknight/hellknight"
+			"2"	"materials/models/doom/hellknight/hellknight_s"
+			"3"	"materials/models/doom/hellknight/tongue"
+			"4"	"materials/models/doom/hellknight/tongue_s"
+		}
+		
+		"download"
+		{
+			"1"	"materials/models/doom/hellknight/hellknight_local.vtf"
+			"2"	"materials/models/doom/hellknight/tongue_local.vtf"
+		}
+		
+		"sound_spawn_all"
+		{
+			"1"	"slender/hellknight/die1.wav"
+			"2"	"slender/hellknight/die2.wav"
+			"3"	"slender/hellknight/die3.wav"
+		}
+
+		"sound_scare_player"
+		{
+			"1"	"misc/halloween/gotohell.wav"
+		}
+
+		"sound_alert_music"
+		{
+			"1"	"slender/hellknight/hellknight_search.wav"
+		}
+		
+		"sound_chase_music"
+		{
+			"1"	"slender/hellknight/hellknight_chase.wav"
+		}
+		
+		"sound_static"
+		{
+			"1"	"slender/static.wav"
+		}
+		
+		"sound_idle"
+		{
+			"1"	"slender/hellknight/hk_chatter_01.wav"
+			"2"	"slender/hellknight/hk_chatter_02.wav"
+			"3"	"slender/hellknight/hk_chatter_03.wav"
+		}
+		
+		"sound_alertofenemy"
+		{
+			"1"	"slender/hellknight/sight1_1.wav"
+			"2"	"slender/hellknight/sight1_2.wav"
+			"3"	"slender/hellknight/sight2_1.wav"
+			"4"	"slender/hellknight/sight2_2.wav"
+			"5"	"slender/hellknight/sight2_3.wav"
+			"6"	"slender/hellknight/sight3_1.wav"
+			"7"	"slender/hellknight/sight3_2.wav"
+		}
+
+		"sound_player_death_all"
+		{
+			"1"	"slender/hellknight/hk_burn.wav"
+		}
+		
+		"sound_chasingenemy"
+		{
+			"1"	"slender/hellknight/ncc_01.wav"
+			"2"	"slender/hellknight/ncc_02.wav"
+			"3"	"slender/hellknight/ncc_03.wav"
+		}
+
+		"sound_move"
+		{
+			"1"	"slender/hellknight/foot/step1.wav"
+			"2"	"slender/hellknight/foot/step2.wav"
+			"3"	"slender/hellknight/foot/step3.wav"
+			"4"	"slender/hellknight/foot/step4.wav"
+		}
+
+		"sound_hitenemy"
+		{
+			"1"	"slender/hellknight/chomp1.wav"
+			"2"	"slender/hellknight/chomp2.wav"
+			"3"	"slender/hellknight/chomp3.wav"
+		}
+		
+		"sound_stun"
+		{
+			"1"	"slender/hellknight/hk_pain_01.wav"
+			"2"	"slender/hellknight/hk_pain_02.wav"
+			"3"	"slender/hellknight/hk_pain_03.wav"
+		}
+		
+		"sound_missenemy"
+		{
+		}
+	}
