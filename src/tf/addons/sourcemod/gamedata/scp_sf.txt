@@ -10,6 +10,19 @@
 				"linux"		"@_ZNK11CBaseEntity10InSameTeamEPKS_"
 				"windows"	"\x55\x8B\xEC\x8B\x45\x08\x57\x8B\xF9\x85\xC0\x75\x2A"
 			}
+			"CBaseTrigger::InputEnable"
+			{
+				"library"	"server"
+				"linux"		"@_ZN12CBaseTrigger11InputEnableER11inputdata_t"
+				// oh lord...
+				"windows"	"\x56\x8B\xF1\x8B\x8E\xF4\x01\x00\x00\xC6\x86\xCC\x03\x00\x00\x00\x85\xC9\x74\x2A\x8B\x01\x6A\x01\xFF\x50\x30\x8A\x86\x98\x01\x00\x00\xC0\xE8\x03\xA8\x01\x75\x2A\x0F\xB7\x86\x98\x01\x00\x00\x8D\x8E\x5C\x01\x00\x00\x83\xC8\x08\x50\xE8\x2A\x2A\x2A\x2A\x6A\x00\x8B\xCE\xE8\x2A\x2A\x2A\x2A\x5E\xC2\x04\x00"
+			}			
+			"CBaseAnimating::GetBoneCache"
+			{
+				"library"	"server"
+				"linux"		"@_ZN14CBaseAnimating12GetBoneCacheEv"
+				"windows"	"\x55\x8B\xEC\xB8\x10\x18\x00\x00"
+			}			
 			"CTFDroppedWeapon::Create"
 			{
 				"library"	"server"
@@ -94,6 +107,16 @@
 				"linux"		"@_ZN14CWeaponMedigun19AllowedToHealTargetEP11CBaseEntity"
 				"windows"	"\x55\x8B\xEC\x53\x8B\xD9\x56\x57\x8B\xB3\xE8\x01\x00\x00\x83\xFE\xFF\x0F\x84\x64\x01"
 			}
+			"AI_CriteriaSet::FindCriterionIndex"
+			{
+				"linux"		"@_ZNK14AI_CriteriaSet18FindCriterionIndexEPKc"
+				"windows"	"\x55\x8B\xEC\x83\xEC\x48\x56\xFF\x75\x08"
+			}
+			"AI_CriteriaSet::RemoveCriteria"
+			{
+				"linux"		"@_ZN14AI_CriteriaSet14RemoveCriteriaEPKc"
+				"windows"	"\x55\x8B\xEC\x83\xEC\x48\x56\x57\xFF\x75\x08"
+			}
 		}
 		"Functions"
 		{
@@ -129,6 +152,28 @@
 					}
 				}
 			}
+			"CBaseTrigger::InputEnable"
+			{
+				"signature"	"CBaseTrigger::InputEnable"
+				"callconv"	"thiscall"
+				"hooktype"	"entity"
+				"return"	"void"
+				"this"		"entity"
+				"arguments"
+				{
+					"inputdata"
+					{
+						"type"	"objectptr"
+					}
+				}
+			}			
+			"CBaseAnimating::GetBoneCache"
+			{
+				"signature"	"CBaseAnimating::GetBoneCache"
+				"callconv"	"thiscall"
+				"return"	"int"
+				"this"		"entity"
+			}			
 			"CBasePlayer::ForceRespawn"
 			{
 				"offset"	"CBasePlayer::ForceRespawn"
@@ -260,7 +305,6 @@
 					"info"
 					{
 						"type"	"objectptr"
-						"flags"	"byref"
 					}
 					"bEmpty"
 					{
@@ -329,6 +373,20 @@
 					}
 				}
 			}
+			"CBaseEntity::ModifyOrAppendCriteria"
+			{
+				"offset"	"CBaseEntity::ModifyOrAppendCriteria"
+				"hooktype"	"entity"
+				"return"	"void"
+				"this"		"entity"
+				"arguments"
+				{
+					"criteriaSet"
+					{
+						"type"	"int"
+					}
+				}
+			}
 		}
 		"Offsets"
 		{
@@ -341,11 +399,16 @@
 			{
 				"linux"		"17"
 				"windows"	"16"
-			}
+			}		
+			"CBaseAnimating::m_pStudioHdr"
+			{
+				"linux"		"288"
+				"windows"	"283"
+			}			
 			"CBasePlayer::EquipWearable"
 			{
-				"linux"		"435"
-				"windows"	"434"
+				"linux"		"436"
+				"windows"	"435"
 			}
 			"CBasePlayer::ForceRespawn"
 			{
@@ -376,6 +439,11 @@
 			{
 				"linux"		"207"
 				"windows"	"206"
+			}
+			"CBaseEntity::ModifyOrAppendCriteria"
+			{
+				"linux"		"122"
+				"windows"	"121"
 			}
 		}
 		"Addresses"

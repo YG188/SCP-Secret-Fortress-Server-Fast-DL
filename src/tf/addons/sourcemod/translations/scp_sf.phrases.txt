@@ -68,7 +68,7 @@
 	}
 	"hint_17"
 	{
-		"en"		"To use a Health Kit, use ATTACK2 to drop the\nkit and stand over it until it's used."
+		"en"		"To use a Health Kit, hold ATTACK1 or ATTACK2."
 	}
 	"hint_18"
 	{
@@ -294,7 +294,7 @@
 	}
 	"class_chaos2"
 	{
-		"en"		"Chaos Insurgency Repressor"
+		"en"		"Chaos Insurgency Marauder"
 	}
 	"desc_chaos2"
 	{
@@ -306,7 +306,7 @@
 	}
 	"class_chaos3"
 	{
-		"en"		"Chaos Insurgency Marauder"
+		"en"		"Chaos Insurgency Repressor"
 	}
 	"desc_chaos3"
 	{
@@ -399,6 +399,18 @@
 	"train_mtfe"
 	{
 		"en"		"You need to free Scientists from the facility.\nYou can build sentries to fight off SCPs.\nYou can also build dispensers for allies.\nPress ATTACK2, USE or use VOICEMENU to interact with buttons and items."
+	}
+	"class_scp035"
+	{
+		"en"		"SCP-035"
+	}
+	"desc_scp035"
+	{
+		"en"		"Kill everyone.\nPrevent escape.\nCooperate with other SCPs.\nPick up the item and kill them all."
+	}
+	"train_scp035"
+	{
+		"en"		"Prevent escape.\nPress ATTACK2, ATTACK3, USE or use VOICEMENU to interact with buttons and items."
 	}
 	"class_scp049"
 	{
@@ -933,7 +945,7 @@
 	}
 	"info_30014"
 	{
-		"en"		"%%+attack%% to drop and stand over it to gain back half your max health."
+		"en"		"%%+attack%% to use and gain back half your max health."
 	}
 	"weapon_30015"
 	{
@@ -1169,6 +1181,14 @@
 	{
 		"en"		"You have been disarmed!"
 	}
+	"badkill"	// Game
+	{
+		"en"		"Bad Kill! Your Karma has lowered."
+	}
+	"goodkarma"	// Game
+	{
+		"en"		"Good work! Your Karma has increased."
+	}	
 	"radar"	// HUD
 	{
 		"en"		"Radar Ready [RELOAD]"
@@ -1182,11 +1202,21 @@
 	{
 		"en"		"%%+attack3%% Press and hold to use sprint"
 	}
+	"kill_counter"	// HUD
+	{
+		"#format"	"{1:d},{2:d}"
+		"en"		"Kills: {1}\nHumans left: {2}"
+	}		
 	"end_screen"	// HUD
 	{
-		"#format"	"{1:t},{2:d},{3:d},{4:d},{5:d},{6:d},{7:d}"
-		"en"		"{1}\n \nClass-D Escaped: {2} / {3}\nScientist(s) Survived: {4} / {5}\nTerminated SCPs: {6} / {7}"
+		"#format"	"{1:t},{2:d},{3:d},{4:d},{5:d},{6:d},{7:d},{8:d},{9:d}"
+		"en"		"{1}\n \nClass-D Escaped: {2} / {3}\nScientist(s) Survived: {4} / {5}\nTerminated SCPs: {6} / {7}\n \nThe round took {8} minutes and {9} seconds"
 	}
+	"end_screen_vip" // HUD
+	{
+		"#format"	"{1:t},{2:d},{3:d},{4:d},{5:d},{6:d},{7:d},{8:d},{9:d},{10:d},{11:d}"
+		"en"		"{1}\n \nClass-D Escaped: {2} / {3} ({4} captured)\nScientists Escaped: {5} / {6} ({7} captured)\nTerminated SCPs: {8} / {9}\n \nThe round took {10} minutes and {11} seconds"
+	}	
 	"end_screen_boss"	// HUD
 	{
 		"#format"	"{1:t},{2:d},{3:d}"
@@ -1259,6 +1289,26 @@
 	{
 		"en"		"ASSIGNMENT: TERMINATED\nSUBJECT: MTF OPERATIVE E11\nREASON: DEMONSTRATION OF EXCEEDINGLY POOR JUDGMENT"
 	}
+    "disarming_other"    // HUD
+    {
+        "#format"    "{1:N},{2:.0f}"
+        "en"        "Disarming {1}... {2}%"
+    }
+	"disarming_me"    // HUD
+    {
+        "#format"    "{1:N},{2:.0f}"
+        "en"        "{1} is disarming you... {2}%"
+    }
+    "arming_other" // HUD
+    {
+        "#format"    "{1:N},{2:.0f}"
+        "en"        "Uncuffing {1}... {2}%"
+    }
+	"arming_me" // HUD
+    {
+        "#format"    "{1:N},{2:.0f}"
+        "en"        "{1} is uncuffing you... {2}%"
+    }
 
 	// Ikea
 
@@ -1491,102 +1541,83 @@
 	{
 		"#format"	"{1:d}"
 		"en"		"Camera: {1}%% [ATTACK2]"
-		"ru"		"Camera: {1}%% [ДОП. АТАКА]"
 	}
 	"sprint_ready"	// HUD
 	{
 		"#format"	"{1:d}"
 		"en"		"Sprint: {1}%% [JUMP]"
-		"ru"		"Sprint: {1}%% [JUMP]"
 	}
 	"sprint_not"	// HUD
 	{
 		"#format"	"{1:d}"
 		"en"		"Sprint: {1}%%"
-		"ru"		"Sprint: {1}%%"
 	}
 	"now_playing"	// Chat
 	{
 		"#format"	"{1:s}"
 		"en"		"Now Playing: {1}"
-		"ru"		"Сейчас играет: {1}"
 	}
 	"health_kit"	// HUD
 	{
 		"en"		"Health Kit Ready [ATTACK2]"
-		"ru"		"Аптечка готова [ДОП. АТАКА]"
 	}
 	"pain_killers"	// HUD
 	{
 		"en"		"Pain Killers Ready [ATTACK2]"
-		"ru"		"Обезболивающее готово [ДОП. АТАКА]"
 	}
 	"scp_500"	// HUD
 	{
 		"en"		"SCP-500 [ATTACK2]"
-		"ru"		"SCP-500 [ДОП. АТАКА]"
 	}
 	"keycard"	// HUD
 	{
 		"#format"	"{1:t}"
 		"en"		"Keycard: {1}"
-		"ru"		"Ключ-Карта: {1}"
 	}
 	"radio"	// HUD
 	{
 		"#format"	"{1:t},{2:d}"
 		"en"		"Radio: {1} ({2}%%) [ATTACK3]"
-		"ru"		"Радио: {1} ({2}%%) [СПЕЦ. АТАКА]"
 	}
 	"keycard_rough"
 	{
 		"en"		"Keycard | Rough"
-		"ru"		"Карта | О. Грубо"
 	}
 	"keycard_coarse"
 	{
 		"en"		"Keycard | Coarse"
-		"ru"		"Карта | Грубо"
 	}
 	"keycard_even"
 	{
 		"en"		"Keycard | 1:1"
-		"ru"		"Карта | 1:1"
 	}
 	"keycard_fine"
 	{
 		"en"		"Keycard | Fine"
-		"ru"		"Карта | Тонко"
 	}
 	"keycard_very"
 	{
 		"en"		"Keycard | Very Fine"
-		"ru"		"Карта | О. Тонко"
 	}
 	"weapon_rough"
 	{
 		"en"		"Weapon | Rough"
-		"ru"		"Оружие | О. Грубо"
 	}
 	"weapon_coarse"
 	{
 		"en"		"Weapon | Coarse"
-		"ru"		"Оружие | Грубо"
 	}
 	"weapon_even"
 	{
 		"en"		"Weapon | 1:1"
-		"ru"		"Оружие | 1:1"
 	}
 	"weapon_fine"
 	{
 		"en"		"Weapon | Fine"
-		"ru"		"Оружие | Тонко"
 	}
 	"weapon_very"
 	{
 		"en"		"Weapon | Very Fine"
-		"ru"		"Оружие | О. Тонко"
 	}
 	"scp_914"
 	{
@@ -1595,62 +1626,50 @@
 	"keycard_0"
 	{
 		"en"		"None"
-		"ru"		"Нет"
 	}
 	"keycard_1"
 	{
 		"en"		"Janitor"
-		"ru"		"Уборщик"
 	}
 	"keycard_2"
 	{
 		"en"		"Scientist"
-		"ru"		"Учёный"
 	}
 	"keycard_3"
 	{
 		"en"		"Zone Manager"
-		"ru"		"Менеджер Зоны"
 	}
 	"keycard_4"
 	{
 		"en"		"Research Supervisor"
-		"ru"		"Руководитель Исследований"
 	}
 	"keycard_5"
 	{
 		"en"		"Facility Guard"
-		"ru"		"Охранник Комплекса"
 	}
 	"keycard_6"
 	{
 		"en"		"MTF Cadet"
-		"ru"		"Кадет МОГ"
 	}
 	"keycard_7"
 	{
 		"en"		"MTF Lieutenant"
-		"ru"		"Лейтенант МОГ"
 	}
 	"keycard_8"
 	{
 		"en"		"MTF Commander"
-		"ru"		"Командир МОГ"
 	}
 	"keycard_9"
 	{
 		"en"		"Containment Engineer"
-		"ru"		"Инженер Содержания"
 	}
 	"keycard_10"
 	{
 		"en"		"Facility Manager"
-		"ru"		"Менеджер Комплекса"
 	}
 	"keycard_11"
 	{
 		"en"		"Chaos Insurgency Access Device"
-		"ru"		"Устройство Доступа Повстанца Хаоса"
 	}
 	"keycard_12"
 	{
@@ -1663,22 +1682,18 @@
 	"radio_1"
 	{
 		"en"		"SR"
-		"ru"		"КД"
 	}
 	"radio_2"
 	{
 		"en"		"MR"
-		"ru"		"СД"
 	}
 	"radio_3"
 	{
 		"en"		"LR"
-		"ru"		"ДД"
 	}
 	"radio_4"
 	{
 		"en"		"UR"
-		"ru"		"УД"
 	}
 	"help_switch"
 	{
@@ -1687,5 +1702,96 @@
 	"switch"
 	{
 		"en"		"ATTACK3 to switch items"
+	}
+
+	// Turtle Support
+
+	"weapon_636"
+	{
+		"en"		"Coin"
+	}
+	"info_636"
+	{
+		"en"		"Worth 25 cents."
+	}
+	"weapon_30666"
+	{
+		"en"		"Blaster Pistol"
+	}
+	"info_300666"
+	{
+		"en"		"Futuristic weapon with infinite penetration. Fast reload."
+	}
+	"weapon_30665"
+	{
+		"en"		"Blaster Rifle"
+	}
+	"info_30665"
+	{
+		"en"		"Very accurate rifle with infinite penetration. Slow reload."
+	}
+	"weapon_30088"
+	{
+		"en"		"Shell Armor"
+	}
+	"info_30088"
+	{
+		"en"		"Low damage resistance, extra reserve ammo, no helmet."
+	}
+	"weapon_30089"
+	{
+		"en"		"Red Metal"
+	}
+	"info_30089"
+	{
+		"en"		"Holding this artifact makes you super strong, but at what cost?"
+	}
+	"class_ht1"
+	{
+		"en"		"HatTurtle Drone (Defender)"
+	}
+	"desc_ht1"
+	{
+		"en"		"Kill everyone.\nPrevent escape.\nCooperate with SCPs."
+	}	
+	"train_ht1"
+	{
+		"en"		"You are the strongest but also the slowest unit\nSlow down the progress of the MTF and Chaos Insurgency\nYou have a lot of health but you are not invincible."
+	}
+	"train_ht2"
+	{
+		"en"		"You are equipped with deadly weapons\nUse hit and run tactics to mow down groups of enemies\nYour rifle takes a very long time to reload."
+	}
+	"class_ht2"
+	{
+		"en"		"HatTurtle Drone (Assault)"
+	}
+	"desc_ht2"
+	{
+		"en"		"Kill everyone.\nPrevent escape.\nCooperate with SCPs."
+	}	
+	"class_ht3"
+	{
+		"en"		"HatTurtle Drone (Scout)"
+	}
+	"desc_ht3"
+	{
+		"en"		"Kill everyone.\nPrevent escape.\nCooperate with SCPs."
+	}	
+	"train_ht3"
+	{
+		"en"		"You are the fastest but also the weakest unit\nYou can easily catch objective classes off-guard\nAvoid prolonged engagements with armed hostiles."
+	}
+	"class_janitor"
+	{
+		"en"		"Janitor"
+	}
+	"desc_janitor"
+	{
+		"en"		"Escape from the facility.\nCooperate with the Chaos Insurgency.\nAvoid other teams."
+	}
+	"train_janitor"
+	{
+		"en"		"You need to escape the facility.\nPress ATTACK, ATTACK2, USE, or use VOICEMENU to interact with buttons and items.\nYou are also disguised as a facility guard."
 	}
 }
